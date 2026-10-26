@@ -1,0 +1,34 @@
+{
+  "text": {
+    "title": "FreshDrop features, 1 August–31 August 2026, 12,400 active buyers",
+    "method": "base: buyers with 1+ order in the period; a use is any feature tap; a 30-day window",
+    "decision": "develop the slot picker; engage people with a reminder for the rarely used replacement feature; remove the old coupon screen",
+    "checks": "rare but critical: refunds; hard to find: express slots; needs replacement: manual cart edit"
+  },
+  "charts": {
+    "features": {
+      "points": [
+        {
+          "label": "Feature X",
+          "x": 80,
+          "y": 16
+        },
+        {
+          "label": "Feature Y",
+          "x": 70,
+          "y": 4
+        },
+        {
+          "label": "Feature Z",
+          "x": 20,
+          "y": 13
+        },
+        {
+          "label": "Feature W",
+          "x": 12,
+          "y": 3
+        }
+      ]
+    }
+  }
+}

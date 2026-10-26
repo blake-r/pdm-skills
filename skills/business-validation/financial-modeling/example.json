@@ -1,0 +1,9 @@
+{
+  "text": {
+    "hypothesis": "if 8% of buyers take a slot at 149 rub, the margin per order is positive",
+    "task": "forward: target margin computed from the initial metrics",
+    "unit_period": "order; a month; the data comes from the finance report",
+    "decision": "test the slot in 2 districts for 6 weeks; change the price if the margin is below 80 rub; check on 15 November 2026",
+    "title": "FreshDrop, express slots, Moscow, September 2026"
+  }
+}

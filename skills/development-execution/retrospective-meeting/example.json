@@ -1,0 +1,9 @@
+{
+  "text": {
+    "title": "Delivery team, 1–14 March 2026",
+    "good": "Daily stand-ups kept blockers visible (+5); couriers app shipped on time (+3)",
+    "bad": "Test environment was down for 3 days (+4); requirements changed twice after sprint start (+2)",
+    "improve": "Book the test environment in advance (+4); write acceptance criteria before the sprint (+2)",
+    "actions": "1. Agree a test-environment booking with QA: Ivan, by 20 March. 2. Add a Definition of Ready check to planning: Anna, by 27 March. Check: no environment downtime in the next sprint"
+  }
+}

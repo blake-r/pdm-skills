@@ -1,0 +1,27 @@
+{
+  "text": {
+    "title": "FreshDrop, product team, August–September 2026",
+    "customer_0": "Busy Moscow buyers",
+    "customer_1": "Office workers in the centre",
+    "customer_2": "Families with 2+ kids",
+    "customer_3": "Families with 2+ kids in 2 districts",
+    "customer_4": "Families, 2 districts, weekly box",
+    "problem_0": "Groceries take too long to order",
+    "problem_1": "Slots are hard to pick after work",
+    "problem_2": "No time for a weekly shop",
+    "problem_3": "Weekly shop from a saved list",
+    "problem_4": "Saved list and fixed slot",
+    "solution_0": "Express 30-minute delivery",
+    "solution_1": "One-tap slot choice",
+    "solution_2": "Family weekly box",
+    "solution_3": "Weekly box with fixed slot",
+    "solution_4": "2-district pilot, 9,000 sessions",
+    "assumptions": "Families pay 10% more for a fixed slot and order at least 3 times a month",
+    "riskiest": "Families will commit to a fixed weekly slot before they pay for it",
+    "method": "12 interviews and a landing page with weekly box pre-orders",
+    "criterion": "At least 5% of landing visitors pre-order before we build",
+    "results": "Landing: 500 visits, 31 pre-orders (6.2%); 9 of 12 interviewees said yes",
+    "invalidated": "No: the weekly box assumption held, so no pivot",
+    "validated": "✓ Weekly box goes to build; next step is a 2-district pilot from 1 November"
+  }
+}

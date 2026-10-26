@@ -1,0 +1,30 @@
+{
+  "text": {
+    "title": "FreshDrop mobile team: delivery board for the buyer app, September 2026",
+    "c1": "Backlog",
+    "c2": "Ready",
+    "c3": "In progress",
+    "c4": "Code review",
+    "c5": "QA",
+    "c6": "Done",
+    "w1": "—",
+    "w2": "8",
+    "w3": "4",
+    "w4": "3",
+    "w5": "3",
+    "w6": "—",
+    "x1": "Story has criteria and design",
+    "x2": "Developer has capacity, WIP below limit",
+    "x3": "PR opened, tests pass",
+    "x4": "2 approvals, CI green",
+    "x5": "Checked on staging, no open bugs",
+    "x6": "Released to all Moscow users",
+    "bounds": "Started when a card leaves Ready; finished in Done; lead time counted from creation",
+    "lanes": "Expedite lane for production bugs, one card at a time; features and QA bugs in standard lanes",
+    "blocked": "Red flag with reason and owner; the team lead removes it by the next stand-up",
+    "replenish": "Every Monday product adds up to 10 cards to Backlog; the team pulls 8 into Ready",
+    "metrics": "WIP 14 on average; throughput 9 cards a week; median cycle time 3.1 days; oldest card 6 days (checked daily)",
+    "sle": "85% of cards done in 5 days or faster; July: 78%",
+    "decision": "Code review is the bottleneck: cards wait 1.8 days. From 1 October: pair review for cards over 3 files; check the wait time in 2 weeks"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "text": {
+    "title": "FreshDrop team, 6 experts from logistics and retail, 20 August 2026",
+    "hypothesis": "courier delays are caused by the slot model, not by the route; the slot decision depends on it",
+    "experts": "2 former courier managers, 2 category managers, 2 logistics analysts; 6 people",
+    "format": "interview, 60 minutes each; led by the product lead, notes by the analyst",
+    "q1": "How long does a courier wait at a slot in a dense district?",
+    "q2": "Where does a late delivery start: in the slot or in the route?",
+    "q3": "What would you fix first in a delivery service?",
+    "q4": "What do buyers complain about most?",
+    "a1": "«12–15 min» (former courier manager)",
+    "a2": "«The slot, the route is fine» (logistics analyst)",
+    "a3": "«Slots first» (category manager)",
+    "a4": "«Late courier, then no call» (category manager)",
+    "c1": "waiting is the main cost",
+    "c2": "the slot causes the delay",
+    "c3": "the slot model comes first",
+    "c4": "calls matter as much as time",
+    "gaps": "no experts from the Saint Petersburg market; numbers are from memory",
+    "decision": "fix the slot model before the route algorithm",
+    "check": "fewer late deliveries in the pilot districts over 4 weeks"
+  }
+}

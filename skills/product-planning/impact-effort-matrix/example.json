@@ -1,0 +1,34 @@
+{
+  "text": {
+    "title": "FreshDrop: 4 ideas for the Q3 goal of +10% weekly orders",
+    "scales": "Metric: weekly orders per user. Impact 0–10: change in orders. Effort 0–10: team weeks, 10 = the largest",
+    "decision": "Now: delivery time on the card (2 weeks). Plan: search with photos as a project. Postpone: dark mode",
+    "rejected": "Courier chat: high effort, low gain, rejected for Q3"
+  },
+  "charts": {
+    "matrix": {
+      "points": [
+        {
+          "label": "Delivery time on card",
+          "x": 2,
+          "y": 8
+        },
+        {
+          "label": "Search with photos",
+          "x": 7,
+          "y": 7
+        },
+        {
+          "label": "Dark mode",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "label": "Courier chat",
+          "x": 8,
+          "y": 2
+        }
+      ]
+    }
+  }
+}

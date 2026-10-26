@@ -1,0 +1,16 @@
+{
+  "text": {
+    "title": "Delivery team, 6 people, agreed 1 September 2026",
+    "purpose": "slot reminders live for 50% of buyers; progress checked every day",
+    "when": "10:00 every day, video call link pinned in the team chat",
+    "length": "Limit 15 minutes; actual average 11 minutes",
+    "people": "6 people: 4 developers, QA and the product lead",
+    "facilitator": "Scrum master Ilya; the role rotates each sprint",
+    "agenda": "By board: blocked cards first, then cards in review, then the rest by priority",
+    "prep": "Each person moves their cards on the board by 09:50 and marks blockers",
+    "offline": "Topics over 2 minutes go offline; the people involved stay after the call",
+    "outcome": "Plan for the day and help requests, recorded in the team chat",
+    "check": "Length measured weekly; usefulness asked in the retro, reviewed each sprint",
+    "decision": "From 1 October: a 15-minute cap, blockers first, and no status round"
+  }
+}

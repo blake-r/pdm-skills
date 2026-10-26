@@ -1,0 +1,13 @@
+{
+  "text": {
+    "title": "FreshDrop express slots, iteration 2",
+    "problem": "buyers miss the 2-hour slot and wait a day",
+    "outcomes": "express share of orders from 8% to 15% in 8 weeks",
+    "users": "busy families with 2+ children, weekly orders",
+    "benefits": "an order in 2 hours without planning; 2 orders a week instead of 1",
+    "solutions": "express slot banner, push reminder before the slot, one-tap reorder",
+    "hypotheses": "we believe express share will rise if families get a push reminder, because they forget slots",
+    "riskiest": "families will book express slots at night",
+    "experiment": "push test for 2 weeks on 20% of users; success if express share grows by 5 points"
+  }
+}

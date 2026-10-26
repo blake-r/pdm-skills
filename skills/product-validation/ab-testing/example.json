@@ -1,0 +1,14 @@
+{
+  "text": {
+    "title": "FreshDrop checkout, one-tap slot choice, 1–14 September 2026",
+    "hypothesis": "if the slot is chosen on the first screen, the order rate will grow, because fewer taps are needed",
+    "metric": "order conversion from the cart",
+    "guardrails": "average check, cancellations, courier complaints",
+    "audience": "app users, split by user ID, 50/50, excluding staff accounts",
+    "duration": "about 2 weeks: 38,000 users in total",
+    "decision_rule": "better: conversion up and average check flat; worse or not proven: keep the old flow",
+    "baseline": "4.2%",
+    "mde": "5%",
+    "daily": "2,700"
+  }
+}

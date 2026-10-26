@@ -1,0 +1,19 @@
+{
+  "text": {
+    "title": "Client of a subscription-app consultancy, new subscription tier, pre-mortem before launch (2025)",
+    "scenario": "The new subscription tier has been launched and has failed",
+    "r1": "Existing customers feel cheated when new customers get a better deal",
+    "r2": "N/A",
+    "r3": "N/A",
+    "r4": "N/A",
+    "r5": "N/A",
+    "r6": "N/A",
+    "a1": "Position the existing tier, not only the new one; add a feature to the higher tier against cannibalization; tell existing customers first; brief support",
+    "a2": "N/A",
+    "a3": "N/A",
+    "a4": "N/A",
+    "a5": "N/A",
+    "a6": "N/A",
+    "decision": "Launch the tier with the four changes (the risk could not be removed: the tier had to offer more value). Outcome reported: fewer complaints than expected, MRR up"
+  }
+}

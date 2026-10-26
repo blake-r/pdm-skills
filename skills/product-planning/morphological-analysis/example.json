@@ -1,0 +1,33 @@
+{
+  "text": {
+    "title": "Pickup point for groceries: options for a 2026 pilot in 3 districts",
+    "prop1": "Pickup place",
+    "prop2": "Ordering",
+    "prop3": "Payment",
+    "prop4": "Courier",
+    "prop5": "Notification",
+    "v1_1": "metro exit kiosk",
+    "v1_2": "courier hand-off",
+    "v1_3": "locker",
+    "v1_4": "store counter",
+    "v2_1": "order 2 hours ahead",
+    "v2_2": "order at the kiosk",
+    "v2_3": "app pickup in 15 min",
+    "v2_4": "next-day pickup",
+    "v3_1": "card at order",
+    "v3_2": "cash at kiosk",
+    "v3_3": "pay in app",
+    "v3_4": "bank link",
+    "v4_1": "own courier",
+    "v4_2": "partner fleet",
+    "v4_3": "taxi",
+    "v4_4": "bike",
+    "v5_1": "push",
+    "v5_2": "SMS",
+    "v5_3": "email",
+    "v5_4": "in-app",
+    "excluded": "Locker + night pickup dropped: couriers cannot reach lockers after 22:00",
+    "combos": "option A = 1.1 + 2.3 + 3.2 (kiosk, metro, app pickup)",
+    "decision": "Option A: kiosk at metro exits, app pickup. Chosen for cost; check pickups per day after 6 weeks"
+  }
+}

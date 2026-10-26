@@ -1,0 +1,22 @@
+{
+  "text": {
+    "title": "FreshDrop: weekly orders from families, 2026",
+    "goal": "Grow weekly orders by 10% in Q3 2026",
+    "metric": "weekly orders per buyer: 1.8 → 2.0 by 30 September",
+    "actor1": "Regular buyers",
+    "actor2": "New families",
+    "actor3": "Couriers",
+    "impact1_1": "Orders weekly",
+    "impact1_2": "Adds a second order",
+    "impact2_1": "Books express slots",
+    "impact2_2": "Books on time",
+    "impact3_1": "Fewer missed items",
+    "impact3_2": "Faster picking",
+    "deliv1_1": "Weekly reminder",
+    "deliv1_2": "Ratings after each order",
+    "deliv2_1": "Express slot banner",
+    "deliv2_2": "Push 15 min before slot",
+    "deliv3_1": "Live stock picking",
+    "deliv3_2": "Courier ETA alerts"
+  }
+}

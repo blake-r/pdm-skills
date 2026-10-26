@@ -1,0 +1,30 @@
+{
+  "text": {
+    "title": "FreshDrop order, from placed to delivered",
+    "entity": "what the object is; where its lifecycle starts and ends",
+    "scope": "which events change states; what is outside the model",
+    "s1": "name and meaning",
+    "s2": "name and meaning",
+    "s3": "name and meaning",
+    "s4": "name and meaning",
+    "s5": "name and meaning",
+    "s6": "name and meaning",
+    "s7": "name and meaning",
+    "e1": "final success state: name and meaning",
+    "e2": "final failure state: name and meaning",
+    "start": "creation event",
+    "t8": "return to an intermediate state: event [condition]",
+    "tc": "cancel arrows: event, from which states",
+    "t1": "event [condition]",
+    "t2": "event [condition]",
+    "t3": "event [condition]",
+    "t4": "event [condition]",
+    "t5": "event [condition]",
+    "t6": "event [condition]",
+    "t7": "event [condition]",
+    "t9": "event [condition]",
+    "forbidden": "lines \"from → to → system reaction\": transitions that must not happen",
+    "gaps": "states and transitions missing from the diagram or the source",
+    "decision": "what was agreed: states, transition rules, where they are recorded and why"
+  }
+}

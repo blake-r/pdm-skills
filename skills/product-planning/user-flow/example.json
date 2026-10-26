@@ -1,0 +1,19 @@
+{
+  "text": {
+    "title": "FreshDrop app, buyer books a slot, 1 flow in one line",
+    "goal": "what the person wants to get, as \"I want X so that Y\"",
+    "scope": "where the entry is, what counts as the end, which neighboring flows are left out of the diagram",
+    "start": "flow entry",
+    "s1": "screen: user action",
+    "s2": "screen: user action",
+    "s3": "screen: user action",
+    "s4": "screen: user action",
+    "end": "end: the result for the user",
+    "cond": "is the chosen slot still free?",
+    "alt": "screen: choose another slot on the «no» branch",
+    "other": "neighboring flows with their own end; alternative entries",
+    "issues": "where people got lost before the changes: dead ends, extra steps, from a test or data",
+    "decision": "what we merged, removed, moved and why",
+    "check": "how we verified (test, metric) and what we got; what we did not measure"
+  }
+}

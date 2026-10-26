@@ -1,0 +1,26 @@
+{
+  "text": {
+    "title": "FreshDrop, slow slot booking, 1–30 September 2026",
+    "problem": "Slot booking fails in 38% of sessions; 22% of buyers leave at the slot step (July analytics)",
+    "hypothesis": "If 2-hour slots are shown on the first screen, slot-to-order rises from 61% to 70%, because buyers stop scrolling",
+    "experiment": "2-hour slots on the home screen for 2 weeks in 2 districts, 50% of traffic",
+    "metrics": "Slot-to-order at 70% or more confirms; below 65% drops the idea",
+    "period1": "Week 1",
+    "period2": "Week 2",
+    "period3": "Week 3",
+    "metric1": "Slot-to-order, %",
+    "metric2": "Slot errors, %",
+    "metric3": "Orders in test districts",
+    "m1_p1": "61%",
+    "m1_p2": "66%",
+    "m1_p3": "71%",
+    "m2_p1": "38%",
+    "m2_p2": "24%",
+    "m2_p3": "15%",
+    "m3_p1": "1,140",
+    "m3_p2": "1,620",
+    "m3_p3": "1,980",
+    "subresults": "Week 2: 2-hour slots picked 3 times more often; errors fell after the map fix",
+    "results": "Confirmed: 71% in week 3 (target 70%). Decision: roll out to all Moscow districts from 1 October"
+  }
+}

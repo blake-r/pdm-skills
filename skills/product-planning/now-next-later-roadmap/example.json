@@ -1,0 +1,23 @@
+{
+  "text": {
+    "title": "WooCommerce public roadmap, announced 30 May 2023",
+    "objectives": "Give the developer community visibility into current work, future plans and the overall direction of WooCommerce. Items by objective: N/A (the announcement lists no items)",
+    "now": [
+      "Projects the team is currently working on",
+      "Item names: N/A (not in the announcement)"
+    ],
+    "next": [
+      "Projects the team is committed to executing but has not started",
+      "Item names: N/A (not in the announcement)"
+    ],
+    "later": [
+      "Projects being scoped and likely to happen, not yet scheduled",
+      "Item names: N/A (not in the announcement)"
+    ],
+    "decision": [
+      "Roadmap published as a living document, kept updated",
+      "Fourth stage Ideation: planned, no work begun",
+      "Office hours and community events to discuss items"
+    ]
+  }
+}

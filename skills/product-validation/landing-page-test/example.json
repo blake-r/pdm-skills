@@ -1,0 +1,28 @@
+{
+  "text": {
+    "title": "FreshDrop express slots, Moscow, 1–10 September 2026",
+    "hypothesis": "we believe busy families will want fixed express slots; the sign-up rate at 10% will confirm it, because our surveys show slot misses",
+    "page": "headline «Fixed slot, no missed courier», price 149 rub, button «Choose a slot»",
+    "traffic": "Moscow families, targeted ads in messenger; 4,200 people saw it",
+    "action": "leave an email to get the early access link",
+    "s1": "visit the page",
+    "s2": "click «Choose a slot»",
+    "s3": "leave an email",
+    "s4": "confirm the plan",
+    "n1": "4,200",
+    "n2": "610",
+    "n3": "205",
+    "n4": "48",
+    "p1": "—",
+    "p2": "14.5%",
+    "p3": "33.6%",
+    "p4": "23.4%",
+    "t1": "100%",
+    "t2": "14.5%",
+    "t3": "4.9%",
+    "t4": "1.1%",
+    "threshold": "strong at 5% or more leave an email; we need 4,000 visitors",
+    "result": "4,200 views, 610 clicks, 48 plans; buyers said the price is clear",
+    "decision": "build the early access flow in the app; change the price block for the second test"
+  }
+}

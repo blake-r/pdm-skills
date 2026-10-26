@@ -1,0 +1,16 @@
+{
+  "text": {
+    "title": "FreshDrop express slots, test 1–14 September 2026",
+    "question": "Does showing 2-hour slots on the home screen raise slot-to-order conversion?",
+    "hypothesis": "Buyers abandon because the slot picker sits two taps deep",
+    "right_if": "Slot-to-order rises from 61% to 70% or more in 2 weeks, in 2 districts with 50% of traffic",
+    "people": "New and returning buyers in Khimki and Mytishchi, about 9,000 sessions",
+    "materials": "Home screen mockup, A/B flag, 40,000 RUB for push messages",
+    "procedure": "2 weeks, 50/50 split by user ID, 9,000 sessions, checked daily",
+    "observations": "Variant: 70.4% slot-to-order vs control 61.2%; errors 15% vs 27%",
+    "conclusion": "Validated: roll out to all Moscow districts from 1 October",
+    "validated": "✓",
+    "invalidated": "",
+    "uncertain": ""
+  }
+}

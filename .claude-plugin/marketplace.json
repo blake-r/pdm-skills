@@ -1,0 +1,19 @@
+{
+  "name": "pdm-skills",
+  "owner": {
+    "name": "Oleg Blednov"
+  },
+  "description": "Marketplace of product manager tools (PAF) and the research and strategy workflow pdm-brief.",
+  "plugins": [
+    {
+      "name": "pdm-skills",
+      "source": "./",
+      "description": "All PAF skills and the pdm-brief workflow.",
+      "category": "product-management",
+      "keywords": [
+        "product-management",
+        "paf"
+      ]
+    }
+  ]
+}

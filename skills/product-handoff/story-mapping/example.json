@@ -1,0 +1,33 @@
+{
+  "text": {
+    "title": "FreshDrop, the buyer's weekly order, September 2026",
+    "act1": "Find the product",
+    "act2": "Build the basket",
+    "act3": "Choose a slot",
+    "act4": "Pay",
+    "act5": "Track and rate",
+    "task1": "search and filters; scan a category",
+    "task2": "add items, edit quantities, see the total",
+    "task3": "pick a 2-hour window, see the fee",
+    "task4": "card or SBP; apply a promo code",
+    "task5": "live courier map; rate the order",
+    "r1_goal": "Buyers order once, end to end, in Moscow",
+    "r2_goal": "Buyers book the same slot each week",
+    "r3_goal": "Buyers get reminders and reorder in one tap",
+    "s1_1": "Search «milk» with typo fix",
+    "s1_2": "Add and edit items in cart",
+    "s1_3": "Pick a 2-hour slot",
+    "s1_4": "Pay by card",
+    "s1_5": "See courier on map",
+    "s2_1": "Category filters, sort by price",
+    "s2_2": "Saved basket",
+    "s2_3": "Fixed weekly slot",
+    "s2_4": "Save card for auto-pay",
+    "s2_5": "Rate courier, leave a note",
+    "s3_1": "Promo banners by history",
+    "s3_2": "Reorder last basket",
+    "s3_3": "Slot reminder 15 minutes before",
+    "s3_4": "Split payment with a partner",
+    "s3_5": "Order history with repeat"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "text": {
+    "title": "FreshDrop app, cohorts by first order month, Jan–Jun 2026, data as of 1 July 2026",
+    "metric": "buyers who placed an order in the month",
+    "normalization": "share of cohort size"
+  }
+}

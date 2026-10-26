@@ -1,0 +1,54 @@
+{
+  "text": {
+    "title": "Grocery delivery in Moscow: FreshDrop vs supermarkets and Kuper",
+    "factors": "Delivery speed: hours to the door. Price: total basket cost. Stock: items on offer",
+    "moves": "Eliminate: slot picker. Reduce: delivery fee. Raise: live stock accuracy. Create: 1-hour express slots"
+  },
+  "charts": {
+    "canvas": {
+      "categories": [
+        "Delivery speed",
+        "Price",
+        "Stock range",
+        "Slot choice",
+        "Support",
+        "App ease"
+      ],
+      "series": [
+        {
+          "name": "Our offering",
+          "values": [
+            4,
+            1,
+            5,
+            2,
+            4,
+            1
+          ]
+        },
+        {
+          "name": "Supermarket delivery",
+          "values": [
+            2,
+            4,
+            2,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "name": "Kuper",
+          "values": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      ]
+    }
+  }
+}

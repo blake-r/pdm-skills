@@ -1,0 +1,10 @@
+{
+  "text": {
+    "title": "FreshDrop split system, 1–5 August 2026",
+    "goal": "the split system and the significance calculation after the update",
+    "metric": "order conversion from the cart",
+    "audience": "app users, split by user ID, 50/50",
+    "runs": "10 re-splits of history, 4 days each; no live traffic",
+    "decision_rule": "if more than 5% of runs are significant, fix the split before the next test"
+  }
+}

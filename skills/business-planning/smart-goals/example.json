@@ -1,0 +1,13 @@
+{
+  "text": {
+    "title": "Ops lead's goal: fewer late deliveries, Q3 2026",
+    "goal": "Cut late-delivery complaints from 6% to 3% of orders by 30 September 2026. Owner: Ops lead Ivan",
+    "s": "Late-delivery complaints",
+    "m": "Complaints from 6% to 3% of orders; source: weekly support report",
+    "a": "Ops lead Ivan Petrov",
+    "r": "2 analysts, 150 000 ₽ budget, 4 hours a week from couriers",
+    "t": "30 September 2026; checks on 15 August and 15 September",
+    "actions": "1. ETA alert 15 minutes before arrival: Ivan, 1 August. 2. Re-plan routes after 19:00: Olga, 15 August",
+    "decision": "Accepted. Rework: the resources line does not name a budget owner"
+  }
+}

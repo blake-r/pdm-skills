@@ -1,0 +1,17 @@
+{
+  "text": {
+    "title": "FreshDrop, July–August 2026 cohorts, weekly active buyers",
+    "acquisition": "6,200 new installs in July: 58% referral, 42% paid ads; CAC 1,150 RUB",
+    "activation": "38% of new buyers place a first order within 3 days",
+    "retention": "41% of first-time buyers order again within 30 days",
+    "referral": "12% of buyers invite a friend; 1 in 4 invitees orders",
+    "revenue": "2,450 RUB average spend per buyer per month",
+    "acquisition_compare": "July target 6,000 installs; CAC target 1,000 RUB",
+    "activation_compare": "target 55%; June cohort 36%",
+    "retention_compare": "June cohort 37%; target 45%",
+    "referral_compare": "June 9%; target 15%",
+    "revenue_compare": "June 2,310 RUB; target 2,600 RUB",
+    "bottleneck": "activation: 38% of new users make a first order; benchmark 55%; the address step loses most users",
+    "decision": "simplify the address form and show the delivery time before sign-up; check activation after 4 weeks"
+  }
+}

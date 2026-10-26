@@ -1,0 +1,13 @@
+{
+  "text": {
+    "title": "Slots must be short to be convenient, but couriers need long windows",
+    "element": "Length of the delivery window",
+    "need_a": "a slot the buyer can book within 1 hour (benefit X: convenience)",
+    "need_not_a": "a window of 3+ hours for couriers (benefit Y: efficient routes)",
+    "ikr": "slots are short for buyers and long for couriers, at no extra cost",
+    "resources": "order history by hour, courier GPS data, 6 dark stores",
+    "principle": "separation in time: short slots at peak hours, long windows at night",
+    "solution": "Separate short slots for regulars, long windows for new users (segmentation in time)",
+    "check": "Late deliveries 4% → 2.5% after 3 weeks in two districts; rollout from 1 October"
+  }
+}

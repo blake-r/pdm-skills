@@ -1,0 +1,14 @@
+{
+  "text": {
+    "title": "Checkout outage, 14 March 2026: 52 min, 1 140 orders lost",
+    "problem": "Checkout returned errors for 52 min on 14 March (18:10–19:02); 1 140 orders were not paid",
+    "why_1": "The payment service stopped answering after a spike in timeouts",
+    "why_2": "Retries had no limit, so the request queue filled up in 9 minutes",
+    "why_3": "A config change raised the payment timeout from 2 s to 30 s",
+    "why_4": "The change went live without a load test, as a \"minor\" edit",
+    "why_5": "Nothing defines which settings are risky, so \"minor\" is judged by the author",
+    "root_cause": "Config changes of payment settings skip load-test review; there is no list of risky settings",
+    "countermeasure": "Every payment setting needs review and a load test. Owner: Platform lead, by 1 April",
+    "check": "No checkout error rate above 1% for 4 weeks after the change; reported weekly"
+  }
+}

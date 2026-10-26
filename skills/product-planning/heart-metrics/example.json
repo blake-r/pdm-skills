@@ -1,0 +1,22 @@
+{
+  "text": {
+    "title": "FreshDrop checkout redesign: HEART metrics for Q3 2026",
+    "h_goal": "Buyers find checkout clear and fair",
+    "h_signal": "Score 4+ of 5 in the post-order survey",
+    "h_metric": "CSAT after checkout: 3.9 (target 4.2)",
+    "e_goal": "Buyers add more items per order",
+    "e_signal": "Use of cart reorder and substitutions",
+    "e_metric": "Items per order: 11.2 (Q2: 10.4)",
+    "a_goal": "New buyers complete the first order",
+    "a_signal": "First order within 7 days of install",
+    "a_metric": "2,100 new buyers a month, 31% convert",
+    "r_goal": "Buyers come back for a second week",
+    "r_signal": "Repeat order within 14 days",
+    "r_metric": "Retention D14: 36% (target 40%)",
+    "t_goal": "Pay without errors or retries",
+    "t_signal": "Checkout completion, failed payments",
+    "t_metric": "Completion 87%; failed payments 4.2%",
+    "focus": "Chosen: Happiness and Task success. Engagement postponed: no baseline data yet",
+    "decision": "Task success target: 92% of orders with no support contact. Checked weekly by Lena"
+  }
+}

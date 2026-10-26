@@ -1,0 +1,33 @@
+{
+  "text": {
+    "title": "MoreThan TALK (University of Southampton student project), site requirements, 2018",
+    "timeframe": "Whole project: first version of the site; priorities per requirement",
+    "effort": "N/A: the page gives no effort estimates. By count: 25 Must of 48 rows (52%)",
+    "must": [
+      "Login with username and password",
+      "Profile page for every user",
+      "Choose which data is public",
+      "Search for users by language, country, interest",
+      "Third-party ad blocks",
+      "Account suspension by admins"
+    ],
+    "should": [
+      "Login via Google or Facebook",
+      "Automatic translation of profiles",
+      "Map with approximate location",
+      "Photo albums",
+      "Users create own groups"
+    ],
+    "could": [
+      "Link to city or country information",
+      "Email alert on a new message",
+      "Recorded messages for matches"
+    ],
+    "wont": [
+      "Account lock after three failed logins",
+      "User-created page layout",
+      "Monthly password change prompt"
+    ],
+    "decision": "N/A: the page records no scope decision or cut line; 3 of 48 rows have no rating"
+  }
+}

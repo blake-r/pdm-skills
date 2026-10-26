@@ -1,0 +1,13 @@
+{
+  "text": {
+    "title": "FreshDrop reminder pilot, 2 districts, 50 buyers, 1–21 September 2026",
+    "hypothesis": "buyers in the pilot districts get a fixed slot delivery in time; the reminder lowers missed slots",
+    "trial": "one key feature: the reminder 15 minutes before the slot; the rest done by hand",
+    "people": "50 buyers from 2 districts, chosen at random among weekly buyers",
+    "term": "1–21 September 2026; a free slot for each participant",
+    "criteria": "missed slots below 5% (from 14%), by 21 September; the team lead decides",
+    "numbers": "share of participants who kept the slot, and orders per week",
+    "feedback": "«I stopped calling the shop», three people asked for the reminder on all orders",
+    "decision": "scale to all of Moscow if missed slots fall by 20%; otherwise rework the reminder time and repeat"
+  }
+}

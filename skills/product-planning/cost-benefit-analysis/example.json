@@ -1,0 +1,61 @@
+{
+  "text": {
+    "title": "Weekly slots for couriers: 3 options compared over 3 years",
+    "assumptions": "3 years by quarter; benefit = saved courier hours and fewer late orders; discount rate 12%",
+    "totals": "A: payback 9 months, ratio 2.4, net 14 M. B: payback 15 months, ratio 1.8. C: no payback, ratio 0.7",
+    "decision": "Launch option A in Q4. Revisit C if courier shortage exceeds 20% in two cities"
+  },
+  "charts": {
+    "ratio": {
+      "categories": [
+        "Period 1",
+        "Period 2",
+        "Period 3",
+        "Period 4",
+        "Period 5"
+      ],
+      "series": [
+        {
+          "name": "Break-even (1.0)",
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Option A",
+          "values": [
+            0.4,
+            0.9,
+            1.3,
+            1.6,
+            1.8
+          ]
+        },
+        {
+          "name": "Option B",
+          "values": [
+            0.8,
+            1.1,
+            1.2,
+            1.2,
+            1.1
+          ]
+        },
+        {
+          "name": "Option C",
+          "values": [
+            0.1,
+            0.4,
+            0.9,
+            1.4,
+            1.9
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "text": {
+    "title": "FreshDrop express slots, test 1–14 September 2026",
+    "hypothesis": "If buyers see 2-hour slots on the first screen, they book one in under a minute, because the picker stops being hidden",
+    "question": "Will 8 of 10 buyers find and pick a slot without help in under 60 seconds?",
+    "scope": "Home screen, slot picker, cart and checkout for 3 scenarios; payment is only drawn",
+    "participants": "8 Moscow buyers who ordered in the last 30 days, recruited by SMS",
+    "tasks": "Order milk and bread for tomorrow evening, choose a slot, pay",
+    "observe": "Where they hesitate on the picker, which button they tap first, what they expect",
+    "findings": "7 of 8 booked a slot, median time 52 s; 3 missed the picker on the first screen",
+    "sketch": "",
+    "mockup": "",
+    "clickable": "✓",
+    "wizard": "",
+    "live": "",
+    "go": "",
+    "iterate": "✓",
+    "drop": "",
+    "next": "Move 2-hour slots to the first screen; retest with 6 buyers on 20 September"
+  }
+}

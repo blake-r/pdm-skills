@@ -1,0 +1,16 @@
+{
+  "text": {
+    "title": "FreshDrop reminder feature, PRD v1.2, 1 September 2026",
+    "background": "1 in 3 buyers misses an evening slot (survey, 420 answers); support gets 60 calls a week",
+    "goals": "Cut missed slots by 30% by Q4 2026; not in scope: SMS and web reminders",
+    "segment": "Moscow families who order weekly; they plan the week on Sunday",
+    "market": "About 180,000 weekly buyers in Moscow; a push costs 0.3 RUB",
+    "proposal": "A push 15 minutes before the slot with a one-tap change",
+    "risks": "Buyers turn push off: test with 50 buyers; opt-out must stay below 10%",
+    "solution": "Push at slot minus 15 minutes; change or cancel in one tap; mockups in Figma v3",
+    "plan": "3 sprints, 2 mobile engineers, 1 tester; launch after the QA gate on 20 September",
+    "launch": "500 weekly buyers in Khimki first; in-app banner and push; support briefed",
+    "postlaunch": "Success: missed slots below 6%. Failure: opt-out above 20% means rollback",
+    "decision": "Engineers can build it and the tester can check each requirement; hand off to development on 1 October"
+  }
+}

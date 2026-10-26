@@ -1,0 +1,14 @@
+{
+  "text": {
+    "title": "Cut delivery cost per order for Moscow buyers, FreshDrop",
+    "s": "Replace the paper receipt with an SMS link; swap cold packs for insulated bags",
+    "c": "Combine pickups from two dark stores into one courier batch",
+    "a": "Adapt the parcel-locker idea: pickup points at metro exits",
+    "m": "Modify the courier route: loops of 4 stops at most",
+    "p": "Use dark-store couriers for evening restaurant pickups",
+    "e": "Drop the call-before-delivery step: 14% of orders wait for it",
+    "r": "Let the courier choose the drop order, not the dispatcher",
+    "shortlist": "Two ideas passed: batch pickups (Combine) and route rebuild (Modify). Criterion: saves 10+ minutes per trip",
+    "decision": "Test batch pickups in 2 districts from 1 July; check idle time per courier after 4 weeks"
+  }
+}

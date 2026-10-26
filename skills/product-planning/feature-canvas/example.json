@@ -1,0 +1,20 @@
+{
+  "text": {
+    "title": "Express slot reminder",
+    "idea": "push reminder 15 minutes before the express slot the buyer booked",
+    "why": "buyers forget slots; 22% of express orders are missed",
+    "context": "evening, when buyers plan the next day; couriers already have the route",
+    "value": "the order arrives on time without checking the app",
+    "restrictions": "iOS push permission is needed; no SMS budget",
+    "problems": "missed express slots; cancelled orders",
+    "affected": "about 40 000 buyers a month who book express",
+    "behavior": "buyers set phone alarms or call support to confirm the slot",
+    "capabilities": "push system, slot data, courier ETA",
+    "tasks": "turn reminders on or off; change the slot from the reminder",
+    "awareness": "prompt at checkout; reminders list in the profile",
+    "support": "wrong time zone, no push permission; FAQ and chat link",
+    "goals": "cut missed express slots from 22% to 10%",
+    "success": "missed slots under 10% for 4 weeks; 70% reminder open rate",
+    "activities": "build push reminder, link slot data, test with 5% of buyers"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "text": {
+    "title": "FreshDrop team, buyers in Moscow, 3–10 August 2026",
+    "hypothesis": "buyers who miss a slot would pay for a reminder; the reminder feature depends on the answer",
+    "audience": "buyers with 2+ orders in the last 3 months; 1,800 invited, screening: 1 order a week or more",
+    "channel": "email and push; 412 answered (23%); trial run with 20 people",
+    "q1": "Do you order groceries online? («Yes» / «No»)",
+    "q2": "How often do you miss a delivery slot?",
+    "q3": "How much would you pay for a fixed slot, rub?",
+    "q4": "Which reminder time do you prefer?",
+    "a1": "Yes: 91% (n=412)",
+    "a2": "Once a month or more: 38%",
+    "a3": "median 150 rub",
+    "a4": "15 minutes before: 61%",
+    "c1": "most buyers order online",
+    "c2": "missed slots are common",
+    "c3": "a fixed slot is worth paying for",
+    "c4": "a reminder 15 minutes before wins",
+    "gaps": "no answers from non-app buyers; no data on the 18–25 group",
+    "decision": "build the reminder first; add a slot guarantee to the next release",
+    "check": "reminder opened by 40% of users in 2 weeks; missed slots down by a fifth"
+  }
+}

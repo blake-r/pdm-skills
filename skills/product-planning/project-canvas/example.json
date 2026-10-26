@@ -1,0 +1,17 @@
+{
+  "text": {
+    "title": "Dark store in Kazan, project 2026",
+    "motivation": "Kazan orders grew 40% in a year; the nearest store is 25 minutes away",
+    "participants": "ops team, courier partner, city council, landlord",
+    "goals": "80% of Kazan orders delivered within 1 hour; 3 000 orders a week by Q4",
+    "users": "buyers in Kazan's 5 central districts",
+    "benefits": "groceries within 1 hour, fresh produce, lower delivery fee",
+    "activities": "lease site, fit out cold rooms, hire 20 pickers, set up routes",
+    "deliverables": "working dark store, pickers' schedule, KPI dashboard",
+    "risks": "rent may rise 15%; winter courier shortage; 6-month lease option",
+    "milestones": "lease signed 1 Nov; fit-out 1 Dec – 15 Jan; launch 1 Feb 2027",
+    "constraints": "fire code limits night work; budget capped at 45 M",
+    "scope": "in: 5 districts, groceries only. Out: alcohol, pharmacy",
+    "project_end": "two months at the KPI, or a stop decision after the pilot"
+  }
+}

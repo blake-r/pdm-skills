@@ -1,0 +1,8 @@
+{
+  "text": {
+    "title": "express slot reminder, FreshDrop 3.4, 12 August 2026",
+    "item": "US-214: reminder 15 minutes before the slot, linked to the spec",
+    "risk": "buyer misses the courier; order is cancelled and refunded",
+    "env": "staging build 3.4.1-rc2, test accounts with express slots, push enabled"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "text": {
+    "title": "FreshDrop app, slot reminder release, 14 screens",
+    "s1": "Home: «Book a slot» button, slot list, new",
+    "s2": "Slot picker: day and time grid, existing",
+    "s3": "Address check: map pin, existing",
+    "s4": "Reminder settings: 15 min before, new",
+    "s5": "Order summary: slot, total, pay, existing",
+    "scenario": "what the person wants to do and where it starts and ends, in one or two lines",
+    "change": "which screens are added, removed, merged or moved, and why",
+    "transitions": "from → to, who triggers it: user (action) or system (event)",
+    "states": "loading, data, empty, error: which screens and what is visible",
+    "affected": "screens of other teams affected by the change; what did not make it onto the map",
+    "decision": "what was kept, merged, removed or added, and why",
+    "check": "how it was checked (test, metric) and what came out; what was not measured"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "text": {
+    "title": "FreshDrop, families who plan the week: 18 interviews, May 2026",
+    "job1": "Get groceries for the week",
+    "job2": "Find a slot that fits",
+    "job3": "Reorder the usual basket",
+    "job1_when": "Sunday evening, fridge nearly empty",
+    "job1_want": "order the full weekly list in one go",
+    "job1_so_that": "the family eats well all week",
+    "job1_solution": "weekly list from last order; 2-hour slots",
+    "job2_when": "Tuesday, after the school run",
+    "job2_want": "pick a window within 2 hours",
+    "job2_so_that": "I am home for the courier",
+    "job2_solution": "slot picker shows free windows first",
+    "job3_when": "milk runs out in the morning",
+    "job3_want": "repeat last week's basket in 2 taps",
+    "job3_so_that": "I save 15 minutes",
+    "job3_solution": "one-tap reorder on the home screen",
+    "who": "families with children in Moscow; 18 interviews, May 2026",
+    "result": "slot picker on the first screen from 1 July; reorder rate checked after 4 weeks"
+  }
+}

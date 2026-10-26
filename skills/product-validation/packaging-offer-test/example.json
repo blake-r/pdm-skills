@@ -1,0 +1,28 @@
+{
+  "text": {
+    "title": "FreshDrop family box, offer test on 2 product pages, September 2026",
+    "hypothesis": "families with children in Moscow need a weekly box, and the offer will attract at least 5% of visitors",
+    "audience": "families in 3 Moscow districts: online ads and a shelf card in 2 shops",
+    "pack": "a shelf card and a box insert with «Fixed slot, dinner on time»",
+    "action": "clicks «Get the box» and leaves a phone number",
+    "o1": "«Fixed slot, no missed courier»",
+    "o2": "«Weekly box: 10 items for 2 children»",
+    "o3": "«Dinner in 40 minutes»",
+    "o4": "«Order once, eat all week»",
+    "v1": "3,100",
+    "v2": "2,980",
+    "v3": "3,020",
+    "v4": "2,940",
+    "a1": "92",
+    "a2": "146",
+    "a3": "71",
+    "a4": "58",
+    "r1": "3.0%",
+    "r2": "4.9%",
+    "r3": "2.4%",
+    "r4": "2.0%",
+    "threshold": "strong at 4% or more; 3,000 views per variant needed",
+    "result": "variant 1 converts 4.9%, variant 3 converts 2.0%; Moscow families beat the other groups",
+    "decision": "test the box in 5 stores; drop the variant 3 offer"
+  }
+}

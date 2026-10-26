@@ -1,0 +1,12 @@
+{
+  "text": {
+    "title": "FreshDrop, grocery delivery in 15 Russian cities, 2026",
+    "tam": "14 M households",
+    "sam": "4.2 M households",
+    "som": "180 000 households",
+    "tam_how": "all households that buy groceries weekly: Rosstat 2025 survey, 14 M",
+    "sam_how": "households in 15 cities with an app-based delivery option: 4.2 M",
+    "som_how": "4% of the SAM in 2 years, given 6 dark stores and 3 rivals",
+    "sources": "Rosstat 2025; Data Insight e-commerce report 2026. Assumption: 4% share of SAM in 2 years"
+  }
+}

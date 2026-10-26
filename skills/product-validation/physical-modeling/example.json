@@ -1,0 +1,25 @@
+{
+  "text": {
+    "title": "FreshDrop courier bag, insulated, 3 variants",
+    "hypothesis": "a bag with a separate cold compartment keeps food cold for 40 minutes for the courier on the route",
+    "model": "a foam mock-up of the bag, 30 × 40 cm, built in our office",
+    "people": "5 couriers and 2 shop staff, tested on the route",
+    "term": "12–26 September 2026; 2 fix cycles",
+    "sc1": "courier takes a 4-stop route with hot and cold orders",
+    "sc2": "courier takes a 4-stop route with hot and cold orders",
+    "sc3": "courier takes a 4-stop route with hot and cold orders",
+    "cr1": "food stays at 4 °C or lower for 40 minutes",
+    "cr2": "food stays at 4 °C or lower for 40 minutes",
+    "cr3": "food stays at 4 °C or lower for 40 minutes",
+    "ra1": "6 °C after 40 minutes in 3 of 5 tests",
+    "ra2": "6 °C after 40 minutes in 3 of 5 tests",
+    "ra3": "6 °C after 40 minutes in 3 of 5 tests",
+    "ch1": "thicker inner wall, cold pack moved to the side",
+    "ch2": "thicker inner wall, cold pack moved to the side",
+    "ch3": "thicker inner wall, cold pack moved to the side",
+    "rb1": "4 °C after 40 minutes in 5 of 5 tests",
+    "rb2": "4 °C after 40 minutes in 5 of 5 tests",
+    "rb3": "4 °C after 40 minutes in 5 of 5 tests",
+    "decision": "criteria met on 2 of 3 variants; move the second variant to production; revisit the handle"
+  }
+}

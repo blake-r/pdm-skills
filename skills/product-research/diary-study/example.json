@@ -1,0 +1,20 @@
+{
+  "text": {
+    "title": "FreshDrop team, weekly shopping of families, Moscow, August 2026",
+    "question": "how families plan and change the weekly order, and what makes them cancel",
+    "sample": "14 families, 2 children each on average; 7 days; 2 dropouts",
+    "entry": "event-based: an entry after each order; messenger photos of the fridge",
+    "a1": "Tue 19:10: opened the app, searched «milk», gave up",
+    "a2": "Thu 18:40: ordered by phone, asked for the 19:00 slot",
+    "a3": "Sat 10:20: planned the week in the messenger",
+    "t1": "«I always lose the slot, it is annoying»",
+    "t2": "«The phone is easier, I trust the operator»",
+    "t3": "«Relief when the courier calls»",
+    "c1": "the family plans on Sunday; the slot is the trigger",
+    "c2": "phone ordering is the fallback for missed slots",
+    "c3": "weekend planning is the habit to support",
+    "interview": "what we clarified: the weekly plan is made on Sunday; cancellation is the fear of a missed slot",
+    "gaps": "dropout after day 3 for 2 families; some entries are late",
+    "decision": "build the reminder and the weekly plan; test with 50 families"
+  }
+}

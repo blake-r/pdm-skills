@@ -1,0 +1,15 @@
+{
+  "text": {
+    "title": "FreshDrop weekly plan, 20 families, September 2026",
+    "hypothesis": "families with 2+ children in Moscow pay for a fixed slot, because they miss the courier now",
+    "assumption": "families will pay 149 rub for a slot; if not, nothing else matters",
+    "real": "a paid slot order in the app",
+    "manual": "the team books slots by hand in a spreadsheet; the ops lead confirms each order",
+    "skip": "the weekly plan, the loyalty points and the SMS reminders",
+    "metric": "share of paid slot orders; confirmed at 8% of cart checkouts",
+    "sample": "120 families in 2 districts; 3 weeks",
+    "cost": "budget 300,000 rub; 2 people for 3 weeks",
+    "result": "41 paid orders (6.1%); feedback: «the slot is what I need»; the 8% target was not reached",
+    "decision": "change the price to 129 rub and repeat for 2 weeks; decision on 1 October 2026"
+  }
+}

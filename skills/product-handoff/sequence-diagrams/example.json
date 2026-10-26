@@ -1,0 +1,21 @@
+{
+  "text": {
+    "title": "FreshDrop, buyer pays for an express slot",
+    "participant_1": "Buyer",
+    "participant_2": "FreshDrop app",
+    "participant_3": "Slot service",
+    "participant_4": "Bank payment API",
+    "m1": "1. initiator's message",
+    "m2": "2. call to an internal participant",
+    "m3": "3. request to the external system",
+    "m4": "4. response from the external system",
+    "m5": "5a. service result to the screen on success",
+    "m6": "5b. reason to the screen on failure or silence",
+    "m7": "6. screen result to the initiator",
+    "g1": "[payment succeeded]",
+    "g2": "else: payment failed or timeout",
+    "scope": "One scenario: a buyer pays for a 2-hour express slot; starts at «Pay», ends at order confirmation",
+    "decision": "Add a 3-second timeout with one retry on the payment call; confirm the result asynchronously from the bank",
+    "gaps": "The 3-D Secure branch, the 5-minute slot hold and the courier notice are collapsed"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "text": {
+    "title": "FreshDrop, busy families, Moscow, August 2026",
+    "person": "parents with 2+ children who order food weekly",
+    "problem": "the courier comes late and the slot is lost; the order is cancelled and the family eats out",
+    "cause": "slots are fixed by the shop, not by the family; no reminder",
+    "motivation": "a dinner on time; the metric is orders delivered in the slot, target 90%",
+    "metric": "share of orders delivered in the chosen slot",
+    "hypothesis": "families lose a slot about once a month and want a reminder",
+    "who": "12 parents, interviewer and note-taker from the product team",
+    "extra": "they plan the week on Sunday; they check the app three times a week",
+    "general": "busy, two incomes, shop by phone and by app",
+    "context": "they keep a list in a messenger and call the shop when a slot is missed",
+    "values": "time with the children; food that is healthy and fresh",
+    "pains": "a missed slot is the worst part of the week; the courier does not call",
+    "decision": "hypothesis confirmed for 9 of 12 parents; build the reminder first",
+    "gaps": "no answers from parents who order only once a month"
+  }
+}

@@ -1,0 +1,8 @@
+Licensing of the pdm-skills plugin, split by content type.
+
+Scripts (scripts/): MIT.
+
+Skill content (skills/: cards, SKILL.md files, templates):
+
+- Cards based on PAF (Product Architecture Framework, productframework.ru, author Sergey Tikhomirov): Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), https://creativecommons.org/licenses/by-sa/4.0/. The license is stated in the footer of productframework.ru.
+- Cards built from third-party primary sources (see paf_catalog.md, marked "PAF, added" and "not from PAF"): distributed under CC BY-SA 4.0 only for the parts not taken from material under another license. The original license of each source is listed in the "Source" section of the card and is not overridden by this file. Such cards need a separate license check before publication.

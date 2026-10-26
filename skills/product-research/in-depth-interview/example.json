@@ -1,0 +1,31 @@
+{
+  "text": {
+    "title": "FreshDrop, ordering habits of families, August 2026, 8 interviews",
+    "hypothesis": "parents who order weekly plan the order on Sunday because the slot is fixed",
+    "who": "8 weekly buyers from Moscow, found through the app survey; 45 minutes each",
+    "goal": "learn how the weekly order is planned and what breaks it; the slot choice decision depends on it",
+    "t1": "Weekly planning",
+    "c1": "when the order is planned and by whom",
+    "q1": "Tell me about the last time you planned the week's groceries.",
+    "f1": "Which day? Did you check the fridge first?",
+    "t2": "Slot choice",
+    "c2": "how the delivery slot is picked and how often it is full",
+    "q2": "Walk me through the last slot you booked.",
+    "f2": "Was there a slot you wanted and could not get? What did you do?",
+    "t3": "Lost orders",
+    "c3": "orders dropped or moved to a shop",
+    "q3": "Tell me about the last time an order fell through.",
+    "f3": "How much did it cost you in time and money? Where did you buy instead?",
+    "t4": "Payment",
+    "c4": "which payment method is used and why",
+    "q4": "Tell me about the last time you paid for an order in the app.",
+    "f4": "Did you try to pay another way? Was the card form a problem?",
+    "t5": "Willingness to pay",
+    "c5": "whether a fixed slot is worth money, by past behaviour",
+    "q5": "Tell me about a time you paid extra for a delivery.",
+    "f5": "What did you pay? Would you pay again next week?",
+    "findings": "6 of 8 plan on Sunday; 5 lost a slot in the last month; separately, 2 said they would pay more for a fixed slot (opinion only)",
+    "decision": "hypothesis confirmed; build the slot reminder and test it with 50 buyers",
+    "gaps": "no buyers from outside the Moscow ring road; no answers from non-weekly buyers"
+  }
+}

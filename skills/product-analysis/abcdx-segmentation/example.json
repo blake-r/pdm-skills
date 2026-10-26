@@ -1,0 +1,16 @@
+{
+  "text": {
+    "title": "FreshDrop, September 2026 orders, gross margin as revenue",
+    "criteria_a": "weekly buyers with 2+ orders a month in 3–4 categories, almost never contact support",
+    "strategy_a": "priority courier slots, referral bonus, features for their requests",
+    "criteria_b": "buy 2–3 times a month, pay for delivery, but leave when the slot is late",
+    "strategy_b": "fix slot reliability, lower the free delivery threshold",
+    "criteria_c": "one-off orders of 1–2 items, small check, long chats about refunds",
+    "strategy_c": "automate refunds and chat replies, promo by email only",
+    "criteria_d": "sign up for the free promo, leave after the first box, never pay for delivery",
+    "strategy_d": "no paid acquisition, minimal service",
+    "criteria_x": "Moscow families with children, ready to pay for a weekly box but need a bulk-size product",
+    "strategy_x": "test a family box with a 2-week pilot before building it",
+    "decision": "focus on segments A and D; test a cheaper delivery plan for B; stop paid push to X"
+  }
+}

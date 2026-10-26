@@ -1,0 +1,28 @@
+{
+  "text": {
+    "title": "FreshDrop reminder, concierge test with 10 buyers, August 2026",
+    "hypothesis": "if a buyer gets a reminder before the slot, then missed slots fall, which the share of kept slots will confirm, because our data shows misses",
+    "need": "a buyer needs a fixed slot; the test is a manual slot booking by chat",
+    "approach": "Concierge: the team books the slots by hand for 10 buyers",
+    "behind": "ops books the slot, the courier is told by the app team; the log is a shared sheet",
+    "m1": "need solved: slot reminder",
+    "m2": "need solved: weekly plan",
+    "m3": "need solved: fast checkout",
+    "m4": "need solved: cheap delivery",
+    "t1": "≥ 70% of users",
+    "t2": "≥ 70%",
+    "t3": "≥ 50%",
+    "t4": "≥ 30%",
+    "f1": "8 of 10",
+    "f2": "6 of 10",
+    "f3": "4 of 10",
+    "f4": "3 of 10",
+    "c1": "keep, build",
+    "c2": "build later",
+    "c3": "drop",
+    "c4": "drop",
+    "group": "10 buyers from Moscow, chosen from the survey, 14 days",
+    "result": "9 of 10 kept their slot; 2 asked for the evening slot; ops spent 25 minutes per order",
+    "decision": "automate the reminder first; stop the manual slot booking after 1 month"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "text": {
+    "title": "FreshDrop team, 3 families observed at home, Moscow, August 2026",
+    "hypothesis": "at home the family plans the order on the phone during dinner prep and loses the slot when they forget",
+    "setting": "3 homes, 2 visits each, 1.5 hours per visit",
+    "role": "passive, with clarifying questions; partial immersion",
+    "patterns": "all 3 families plan on the phone during cooking; 2 of 3 check the slot after work",
+    "refuted": "the family does not compare prices; they choose by habit",
+    "decision": "build the reminder into the cooking time; test with 10 families",
+    "f1": "Tue 19:10: opened the app, typed «milk», gave up on the slot",
+    "f2": "Tue 19:40: called the shop, ordered by phone",
+    "f3": "Wed 07:30: checked the slot on the way to work",
+    "q1": "«I just want it to come when I am home»",
+    "q2": "«The slot is always gone by the evening»",
+    "q3": "«I forgot again, the courier left»",
+    "i1": "the family plans around the slot, not the price",
+    "i2": "the phone is the planning tool at dinner prep",
+    "i3": "missed slots push the family back to the shop"
+  }
+}

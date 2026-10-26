@@ -1,0 +1,31 @@
+{
+  "text": {
+    "title": "FreshDrop checkout funnel, new app users, June 2026",
+    "stage_1": "Open the app",
+    "count_1": "4,200",
+    "days_1": "—",
+    "stage_2": "Add to cart",
+    "count_2": "1,260",
+    "conv_2": "30% from stage 1",
+    "days_2": "3 min",
+    "stage_3": "Choose a slot",
+    "count_3": "530",
+    "conv_3": "42% from stage 2",
+    "days_3": "4 min",
+    "stage_4": "Pay",
+    "count_4": "480",
+    "conv_4": "91% from stage 3",
+    "days_4": "1 min",
+    "stage_5": "Second order in 14 days",
+    "count_5": "150",
+    "conv_5": "31% from stage 4",
+    "days_5": "7 days",
+    "stage_6": "Weekly buyer",
+    "count_6": "58",
+    "conv_6": "39% from stage 5",
+    "days_6": "14 days",
+    "scope": "App analytics, unique users; time = median minutes between stages",
+    "bottleneck": "Cart to slot choice loses 58%: the delivery slot step asks too much",
+    "decision": "Shorten the slot picker to 2 taps. Expect cart-to-slot at 60% in 4 weeks"
+  }
+}

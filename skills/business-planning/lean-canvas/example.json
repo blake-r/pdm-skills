@@ -1,0 +1,17 @@
+{
+  "text": {
+    "title": "FreshDrop, 10 September 2026, v3",
+    "problem": "no time to shop; missing items; late couriers",
+    "alternatives": "supermarket visits, or supermarket delivery slots booked a day ahead",
+    "solution": "weekly list in the app; live stock picking; 2-hour slots",
+    "metrics": "weekly orders per buyer; on-time rate; repeat rate in week 4",
+    "uvp": "groceries in 2 hours, every item in stock",
+    "concept": "a supermarket in your pocket",
+    "advantage": "own dark-store network and two years of stock data",
+    "channels": "referral codes, metro posters, Telegram ads",
+    "segments": "busy families in new districts",
+    "early_adopters": "parents with 2+ children and no car",
+    "costs": "dark stores 40 M, couriers 25 M, marketing 15 M a year",
+    "revenues": "12% margin on goods, delivery fee below 1 500 ₽"
+  }
+}

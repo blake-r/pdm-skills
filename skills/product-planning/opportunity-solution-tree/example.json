@@ -1,0 +1,16 @@
+{
+  "text": {
+    "title": "Grailed Discovery team: a feed for users who browse without a specific item",
+    "outcome": "N/A: the article does not state the outcome; reported result is about 20% higher LTV for feed users",
+    "opp1": "Show me things I interact with",
+    "target": "Show me stuff that's popular",
+    "opp3": "There should always be new stuff when I come",
+    "sol1": "Add popular items to the feed for users who want them",
+    "sol2": "Interleave content and recommendations with different parameters",
+    "sol3": "Track previously seen items to keep the feed fresh",
+    "test1": "Quick low-lift test; the result of this test is N/A",
+    "test2": "N/A: no individual experiment results in the source",
+    "test3": "N/A: no individual experiment results in the source",
+    "decision": "Feed developed over about 6 months; feed users: ~30% more app opens, ~40% more discoveries, ~20% higher LTV"
+  }
+}

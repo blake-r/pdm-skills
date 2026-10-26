@@ -1,0 +1,18 @@
+{
+  "text": {
+    "title": "FreshDrop, grocery delivery, September 2026",
+    "pattern": "No. 17 of 55: subscription, pay per period instead of per order",
+    "logic": "Buyers pay a monthly fee for free delivery; FreshDrop earns on the basket and the fee; buyers order more often",
+    "examples": "Amazon Prime (2005), Costco membership, Netflix (2007)",
+    "now_who": "Moscow families, one-off orders; 1 in 4 never comes back",
+    "new_who": "Same families on a monthly plan; 40% of buyers subscribe",
+    "now_what": "groceries delivered per order; 199 RUB delivery fee each time",
+    "new_what": "unlimited delivery for 499 RUB a month; same baskets",
+    "now_how": "dark stores pick each order; couriers paid per drop",
+    "new_how": "dark stores batch plan orders; couriers get a weekly bonus",
+    "now_value": "2,450 RUB revenue per order; margin 9%",
+    "new_value": "499 RUB fee plus margin on the basket; target margin 12%",
+    "decision": "Test the monthly plan with 2,000 families in 3 districts from 1 November",
+    "check": "Churn after month 1 (target below 15%); cannibalised free deliveries; the effect on basket size is not proven"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "text": {
+    "title": "Delivery team, 6 people, 10 September 2026: reset after the release",
+    "people": "Olga, product lead: slot picker; Dmitry, mobile lead: app; Anna, QA; Ilya, analyst",
+    "common_goals": "Slot-to-order conversion 70% by 1 November; weekly-order retention 40% by Q1 2027",
+    "personal_goals": "Olga: own the slot picker roadmap; Dmitry: cut app start time to 2 seconds",
+    "values": "Buyers first: a late courier is our bug; ship small and check the data",
+    "needs": "Olga needs weekly slot data; Anna needs test devices and 2 days before each release",
+    "rules": "Stand-up at 10:00; decisions in the Thursday review; Friday release only after QA sign-off",
+    "strengths": "Dark-store ops know-how, 2 years of slot data, a fast mobile release pipeline",
+    "weaknesses": "Olga: too many tests in parallel; Dmitry: decisions not written down",
+    "purpose": "Every Moscow buyer gets their slot on time"
+  }
+}

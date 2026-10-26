@@ -1,0 +1,28 @@
+{
+  "text": {
+    "title": "FreshDrop, express slot button in the app, 1–7 September 2026",
+    "hypothesis": "buyers in Moscow who order weekly need express slots; at least 8% will tap the button",
+    "element": "bottom of the cart: «Express slot: 149 rub»; the same text as the real feature",
+    "stub": "«Express slots are coming in October. Leave an email and we will tell you first.»",
+    "audience": "Moscow app users with 2+ orders in 3 months, half of them, 7 days",
+    "threshold": "build from 5% click-through; drop below 2%; set on 1 September, before launch",
+    "result": "click-through 4.1% overall, Moscow weekly buyers 5.8%; effect on orders not measured",
+    "decision": "build the slot picker; email everyone who clicked when it launches",
+    "g1": "Moscow, weekly buyers",
+    "g2": "Moscow, all buyers",
+    "g3": "Saint Petersburg",
+    "g4": "Students",
+    "v1": "2,310",
+    "v2": "1,870",
+    "v3": "940",
+    "v4": "1,120",
+    "a1": "118",
+    "a2": "74",
+    "a3": "31",
+    "a4": "52",
+    "r1": "5.1%",
+    "r2": "4.0%",
+    "r3": "3.3%",
+    "r4": "4.6%"
+  }
+}

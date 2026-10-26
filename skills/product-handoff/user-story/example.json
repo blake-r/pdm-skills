@@ -1,0 +1,28 @@
+{
+  "text": {
+    "title": "Express slot reminder",
+    "role": "a Moscow parent who orders groceries every week",
+    "goal": "get a reminder 15 minutes before my delivery slot",
+    "benefit": "I do not miss the slot and the courier does not wait: 0 missed slots a month",
+    "size": "5 SP",
+    "notes": "reminder time fixed at 15 minutes; no SMS in this version; slot change is out of scope",
+    "given1": "the slot is tomorrow at 18:00",
+    "when1": "the clock reaches 17:45",
+    "then1": "push: «Your courier comes at 18:00»",
+    "given2": "the buyer turned reminders off",
+    "when2": "the slot time comes",
+    "then2": "no push is sent",
+    "given3": "the slot was cancelled",
+    "when3": "the reminder time arrives",
+    "then3": "no push; the slot shows as cancelled",
+    "given4": "the app is closed",
+    "when4": "the reminder time arrives",
+    "then4": "push appears on the lock screen within 60 seconds",
+    "i": "✓",
+    "n": "✓",
+    "v": "✓",
+    "e": "✓",
+    "s": "✓",
+    "t": "✓"
+  }
+}

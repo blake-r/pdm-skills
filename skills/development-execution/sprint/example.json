@@ -1,0 +1,9 @@
+{
+  "text": {
+    "title": "FreshDrop team, sprint 14, 3–14 August 2026",
+    "goal": "ship the express slot reminder to 50% of buyers",
+    "product_goal": "cut missed express slots from 22% to 10%",
+    "unit": "story points",
+    "review": "reminder demo to 6 buyers; decided to add an SMS fallback in sprint 15"
+  }
+}

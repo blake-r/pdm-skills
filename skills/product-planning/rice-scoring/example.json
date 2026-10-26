@@ -1,0 +1,50 @@
+{
+  "text": {
+    "title": "FreshDrop backlog for Q3 2026, 6 initiatives",
+    "reach_period": "quarter"
+  },
+  "rows": [
+    [
+      "Express checkout with saved cards",
+      12000,
+      2,
+      0.8,
+      2
+    ],
+    [
+      "Substitutes for out-of-stock items",
+      30000,
+      1,
+      0.8,
+      3
+    ],
+    [
+      "Loyalty points for weekly orders",
+      8000,
+      2,
+      0.5,
+      4
+    ],
+    [
+      "Dark mode in the app",
+      40000,
+      0.25,
+      1,
+      1
+    ],
+    [
+      "Delivery slot reminders by push",
+      25000,
+      1,
+      0.8,
+      1
+    ],
+    [
+      "Live chat with couriers",
+      6000,
+      1,
+      0.5,
+      3
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "text": {
+    "title": "FreshDrop onboarding ideas, target: weekly orders",
+    "method": "average"
+  },
+  "rows": [
+    [
+      "Show delivery time on the product card",
+      7,
+      8,
+      9
+    ],
+    [
+      "One-tap reorder of the last basket",
+      8,
+      7,
+      7
+    ],
+    [
+      "Free delivery banner above the threshold",
+      6,
+      5,
+      9
+    ],
+    [
+      "Search with product photos",
+      7,
+      4,
+      3
+    ],
+    [
+      "Referral bonus for the first order",
+      9,
+      3,
+      6
+    ]
+  ]
+}

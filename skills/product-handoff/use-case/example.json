@@ -1,0 +1,24 @@
+{
+  "text": {
+    "title": "FreshDrop app: the buyer books an express slot",
+    "actor": "Moscow buyer (primary actor)",
+    "actor2": "Courier dispatch system",
+    "system": "FreshDrop app and dispatch",
+    "uc1": "Book an express slot",
+    "uc2": "Pay for the order",
+    "uc3": "Track the courier",
+    "uc4": "Apply a promo code (extends booking)",
+    "uc5": "Check card or SBP token (always included)",
+    "name": "Book an express slot",
+    "goal": "Buyer gets a delivery slot within 2 hours for tonight",
+    "primary": "Moscow buyer, logged in",
+    "pre": "Buyer has items in the cart and a saved address",
+    "trigger": "Buyer taps «Choose a slot» in the cart",
+    "success": "Slot is held for 15 minutes and shown on the order",
+    "minimal": "No slot is charged; the cart is kept",
+    "scope": "FreshDrop app and dispatch",
+    "level": "User goal",
+    "main": "1. Buyer opens the cart. 2. Buyer taps «Choose a slot». 3. App shows free 2-hour windows. 4. Buyer picks 19:00–21:00. 5. App holds the slot and shows the total. 6. Buyer confirms the order.",
+    "ext": "3a. No free slots: app offers the next day. 4a. Slot taken while choosing: app shows the free ones again. 6a. Card declined: buyer pays with SBP or changes the card."
+  }
+}

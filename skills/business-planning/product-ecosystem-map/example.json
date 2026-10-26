@@ -1,0 +1,22 @@
+{
+  "text": {
+    "title": "FreshDrop, customer ecosystem, Moscow, September 2026",
+    "touch": "app, website, bank card app, messenger bot; reach: 60% of orders",
+    "lead": "Slot reminder and weekly list: bring in and activate new buyers",
+    "lead_m": "activation 38% in 3 days (app analytics)",
+    "value": "FreshDrop app: the core product, orders in 30 minutes",
+    "value_m": "1.8 orders per buyer a week (app analytics)",
+    "profit": "Delivery fee and subscription: earns on each order",
+    "profit_m": "ARPPU 2,450 RUB a month (finance report)",
+    "engage": "Recipes and gift cards: other needs, more visits",
+    "engage_m": "2.4 visits a week per user (app analytics)",
+    "upsale": "Fresh flowers and pet food: extra-profit add-ons",
+    "upsale_m": "average check +6% from add-ons (CRM)",
+    "retain": "Loyalty points and saved baskets bring the next order",
+    "retain_m": "D30 retention 41% (cohort report)",
+    "transfer": "from the bank app to FreshDrop: card payment and loyalty points; level: transactions",
+    "platform": "One profile across app, bank app and messenger; one login",
+    "ops": "Auto-routing and stock sync; courier cost per order 149 RUB",
+    "decision": "Keep loyalty points in the bank app, close the gift card pilot; check courier cost per order monthly"
+  }
+}

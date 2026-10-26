@@ -1,0 +1,32 @@
+{
+  "text": {
+    "title": "FreshDrop app, Moscow family buyer, first weekly shop",
+    "actor": "Busy parent, Moscow: full weekly shop before 21:00",
+    "stage1": "Browse the catalog",
+    "stage2": "Build the cart",
+    "stage3": "Choose a slot",
+    "stage4": "Pay and track the courier",
+    "stage5": "Rate and reorder",
+    "goals1": "Find milk and eggs fast",
+    "goals2": "Add 15–20 items without losing track",
+    "goals3": "Get a slot after work",
+    "goals4": "Know when the courier arrives",
+    "goals5": "Reorder the same basket",
+    "touch1": "Search, category tabs",
+    "touch2": "Cart, promo code field",
+    "touch3": "Slot picker, 2-hour windows",
+    "touch4": "Map with courier, push alerts",
+    "touch5": "Order history, repeat button",
+    "exp1": "Search misses «kefir»: 3 of 10 give up",
+    "exp2": "Total hidden until checkout",
+    "exp3": "Only 2 slots left by 19:00: 22% drop",
+    "exp4": "Courier status lags by 10 minutes",
+    "exp5": "Reorder hidden in profile: 6 of 10 never find it",
+    "ins1": "Add search synonyms for dairy",
+    "ins2": "Show the total in the cart",
+    "ins3": "Open 2 more evening slots",
+    "ins4": "Live courier map on the order page",
+    "ins5": "Put reorder on the home screen",
+    "decision": "Bottleneck: evening slots after 18:00 (22% drop). Test 2 extra slots in 3 Moscow districts from 1 November; check slot-to-order conversion on 15 November."
+  }
+}

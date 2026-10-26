@@ -1,0 +1,27 @@
+{
+  "text": {
+    "title": "Delivery team, FreshDrop app, agreed 1 September 2026",
+    "scope": "all user stories in the app; done = live for buyers and the support team knows it",
+    "k1": "Code merged to main, build green",
+    "k2": "Unit tests cover new logic at 80%+",
+    "k3": "Reviewed and approved by 2 developers",
+    "k4": "Passes QA on staging, no open bugs",
+    "k5": "Works on iOS and Android, last 2 versions",
+    "k6": "Accessibility check passed",
+    "k7": "Analytics events tracked",
+    "k8": "Support has a reply template",
+    "h1": "CI pipeline; the author checks before merge",
+    "h2": "coverage report in CI; reviewer checks the diff",
+    "h3": "GitHub approvals; reviewer lists risks in the PR",
+    "h4": "QA lead signs the ticket; 0 open bugs of any severity",
+    "h5": "device farm run; QA lead checks the release notes",
+    "h6": "designer runs the checklist; screen reader test on the main flow",
+    "h7": "analyst checks the events in the dashboard within 24 hours",
+    "h8": "support lead checks the help center article before release",
+    "auto": "Build, unit tests, lint and the release checklist in Jira block the merge by themselves",
+    "fail": "Back to In progress; a part can ship behind a feature flag if the rest is green",
+    "review": "Every 2 sprints in the retro; the team lead makes the edits, the team votes",
+    "agreed": "Mobile team lead, QA lead and product owner; based on the company engineering standard",
+    "decision": "From 1 October for all stories; we add the accessibility check and drop the manual smoke test"
+  }
+}
