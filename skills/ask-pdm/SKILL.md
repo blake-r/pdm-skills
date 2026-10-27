@@ -32,6 +32,7 @@ The folder column is the category and stage folder under `skills/`.
 | `adl-matrix` | business-analysis | Pick a business unit's strategy from industry life-cycle stage and competitive position |
 | `ansoff-matrix` | business-analysis | Choose a growth direction: existing or new products in existing or new markets |
 | `bcg-matrix` | business-analysis | Sort products by market growth and share; decide fund, hold, harvest or exit |
+| `ge-mckinsey-matrix` | business-analysis | Score units on weighted industry attractiveness and unit strength; decide invest, selective or harvest |
 | `moscow-prioritization` | product-planning | Split requirements into Must, Should, Could and Won't within a fixed time or budget box |
 | `now-next-later-roadmap` | product-planning | Show a roadmap by certainty (now, next, later) tied to business objectives, without dates |
 | `opportunity-solution-tree` | product-planning | Link a desired outcome to customer opportunities, solutions and the tests of their assumptions |

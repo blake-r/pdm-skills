@@ -68,6 +68,7 @@ Source of the case: M. Aly, [«How we cut time to sign up for Monzo US from 17 m
 - **Fixing everything at once.** It is unclear which change worked.
 - **Expanding the entry instead of repairing the bottleneck.** More traffic into a leaky funnel means more money lost on acquisition.
 - **Not measuring time at stages.** A customer who waits a week for approval leaves for a competitor, even though formally they are still in the funnel.
+- **Blaming the product for a broken channel.** The average funnel looks weak, but the loss sits in one traffic source, partner or segment while the others convert normally. Split the funnel by channel before changing the product.
 - **Sacrificing quality for conversion.** A removed check or a simplified step lets through those who should have been screened out: look also at what happens to customers after the purchase.
 
 ## Source

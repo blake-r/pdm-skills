@@ -1,0 +1,32 @@
+{
+  "text": {
+    "title": "eBay, three reportable segments, end of 2019 (our scoring)",
+    "hh": null,
+    "hm": null,
+    "hl": null,
+    "mh": "Marketplace: 3.15 / 3.80",
+    "mm": "Classifieds: 3.40 / 3.55",
+    "ml": null,
+    "lh": null,
+    "lm": "StubHub: 2.25 / 2.65",
+    "ll": null,
+    "attr": [
+      "Size 20%, growth 25%, few rivals 25%, entry barriers 15%, low external risk 15%",
+      "Scores: Marketplace 3.15, Classifieds 3.40, StubHub 2.25"
+    ],
+    "strength": [
+      "Share 30%, brand 15%, margin 20%, momentum 20%, fit with the rest 15%",
+      "Scores: Marketplace 3.80, Classifieds 3.55, StubHub 2.65"
+    ],
+    "scale": "Ratings 1 to 5, high = better for the unit. Cut-offs fixed before scoring: 2.33 and 3.67",
+    "decision": [
+      "Marketplace: invest, it is the core",
+      "StubHub: sold to viagogo, $4.05 bn, Feb 2020",
+      "Classifieds: sold to Adevinta, about $9.2 bn, June 2021"
+    ],
+    "risk": [
+      "Ratings are ours; eBay did not use the matrix",
+      "The grid ignores price and the buyer's synergies"
+    ]
+  }
+}

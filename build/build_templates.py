@@ -5582,6 +5582,75 @@ class AdlMatrix(PptxSpec):
             label(sh, x + 0.06, py + 0.02, w - 0.12, 0.3, tag, size=11, bold=True, color=ACCENT)
             tb = text(box(sh, x + 0.06, py + 0.3, w - 0.12, ph - 0.34, line=None), hint, size=10)
 
+class GeMckinseyMatrix(PptxSpec):
+    @property
+    def rel(self):
+        return "business-analysis/ge-mckinsey-matrix/ge-mckinsey-matrix.pptx"
+
+    example = {"text": {
+        "title": "eBay, three reportable segments, end of 2019 (our scoring)",
+        "hh": None, "hm": None, "hl": None,
+        "mh": "Marketplace: 3.15 / 3.80",
+        "mm": "Classifieds: 3.40 / 3.55",
+        "ml": None,
+        "lh": None,
+        "lm": "StubHub: 2.25 / 2.65",
+        "ll": None,
+        "attr": ["Size 20%, growth 25%, few rivals 25%, entry barriers 15%, low external risk 15%",
+                 "Scores: Marketplace 3.15, Classifieds 3.40, StubHub 2.25"],
+        "strength": ["Share 30%, brand 15%, margin 20%, momentum 20%, fit with the rest 15%",
+                     "Scores: Marketplace 3.80, Classifieds 3.55, StubHub 2.65"],
+        "scale": "Ratings 1 to 5, high = better for the unit. Cut-offs fixed before scoring: 2.33 and 3.67",
+        "decision": ["Marketplace: invest, it is the core", "StubHub: sold to viagogo, $4.05 bn, Feb 2020",
+                     "Classifieds: sold to Adevinta, about $9.2 bn, June 2021"],
+        "risk": ["Ratings are ours; eBay did not use the matrix", "The grid ignores price and the buyer's synergies"],
+    }}
+
+    def draw(self, prs, slide):
+        header(slide, "GE–McKINSEY MATRIX · NINE-BOX MATRIX",
+               "{{title: company or portfolio, date, who scored}}")
+        sh = slide.shapes
+        GREEN, YELLOW, RED = RGBColor(0xE1, 0xF0, 0xE5), RGBColor(0xFA, 0xF0, 0xCC), RGBColor(0xF7, 0xDD, 0xDA)
+        zones = {"g": (GREEN, "Invest, grow"), "y": (YELLOW, "Selective, earnings"), "r": (RED, "Harvest, divest")}
+        # rows: attractiveness high, medium, low; columns: strength low, medium, high
+        grid = [["y", "g", "g"], ["r", "y", "g"], ["r", "r", "y"]]
+        keys = [["hl", "hm", "hh"], ["ml", "mm", "mh"], ["ll", "lm", "lh"]]
+        rows = ["High", "Medium", "Low"]
+        cols = ["Low", "Medium", "High"]
+        x0, y0, rw, cw, rh, ch = 0.5, 1.3, 0.9, 1.9, 1.55, 0.4
+        for i, name in enumerate(rows):
+            label(sh, x0, y0 + i * rh, rw, rh, name, size=11, bold=True, color=MUTED, align=PP_ALIGN.RIGHT,
+                  anchor=MSO_ANCHOR.MIDDLE)
+        for j, name in enumerate(cols):
+            label(sh, x0 + rw + j * cw, y0 + 3 * rh, cw, ch, name, size=11, bold=True, color=MUTED,
+                  align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+        for i in range(3):
+            for j in range(3):
+                fill, zone = zones[grid[i][j]]
+                cx, cy = x0 + rw + j * cw, y0 + i * rh
+                box(sh, cx, cy, cw - 0.06, rh - 0.06, fill=fill, line=None)
+                label(sh, cx, cy, cw - 0.06, 0.3, zone, size=9, bold=True, color=MUTED, align=PP_ALIGN.CENTER)
+                text(box(sh, cx, cy + 0.3, cw - 0.06, rh - 0.4, line=None),
+                     "{{%s: units in this cell, attractiveness / strength}}" % keys[i][j], size=10,
+                     align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+        label(sh, x0 + rw, y0 + 3 * rh + ch, 3 * cw, 0.3, "Strength of the unit →", size=11, color=MUTED,
+              align=PP_ALIGN.CENTER)
+        label(sh, 0.5, 1.0, 3.2, 0.32, "↑ Attractiveness of the industry", size=10, color=MUTED)
+
+        x, w = 7.35, 5.48
+        panels = [
+            ("Attractiveness: factors, weights, scores", "attr", "{{attr: factors with weights; unit scores}}", 1.3, 1.1, False),
+            ("Strength: factors, weights, scores", "strength", "{{strength: factors with weights; unit scores}}", 2.5, 1.1, False),
+            ("Scale and cut-offs", "scale", "{{scale: rating scale, direction, cut-offs fixed before scoring}}", 3.7, 0.8, False),
+            ("Decision", "decision", "{{decision: posture and money per unit, review date}}", 4.6, 1.3, True),
+            ("Risks and limitations", "risk", "{{risk: what could invalidate the placement}}", 6.0, 1.1, False),
+        ]
+        for tag, key, hint, py, ph, accent in panels:
+            box(sh, x, py, w, ph, fill=ACCENT_BG if accent else None, line=ACCENT if accent else LINE)
+            label(sh, x + 0.06, py + 0.02, w - 0.12, 0.3, tag, size=11, bold=True, color=ACCENT)
+            text(box(sh, x + 0.06, py + 0.3, w - 0.12, ph - 0.34, line=None), hint, size=10)
+
+
 class BusinessModelPatterns(PptxSpec):
     @property
     def rel(self):

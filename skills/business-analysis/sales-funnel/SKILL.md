@@ -28,7 +28,7 @@ Take customers who entered the funnel in one period and follow the same customer
 
 ### 3. Bottleneck and decision
 
-Name the transition with the largest loss of customers or the longest wait against the baseline. State what is known about why, and what data would confirm it. Propose one change at that stage, the metric that shows it worked, and the check that quality after the stage did not drop.
+If the data has the acquisition channel, partner or segment, compute the same stage conversions for each before naming the bottleneck: when the loss sits in one of them and the rest convert normally, warn that the problem may be that channel, not the product, and propose the channel check first. Name the transition with the largest loss of customers or the longest wait against the baseline. State what is known about why, and what data would confirm it. Propose one change at that stage, the metric that shows it worked, and the check that quality after the stage did not drop.
 
 ### 4. Show, then write
 
@@ -73,5 +73,6 @@ Take the user's funnel in any form and check it against the common mistakes in c
 3. Time on each stage is counted.
 4. One change at the bottleneck, not several at once, and not more traffic at the entry instead.
 5. Quality after the stage is checked, not only conversion.
+6. If the data has channels, partners or segments, the funnel is split by them, and a loss concentrated in one is not blamed on the product.
 
 Report findings as a numbered list: stage, what is wrong, why it misleads the decision, the concrete fix. End with a verdict: "funnel supports the decision", "supports it after fixes" or "not enough data".

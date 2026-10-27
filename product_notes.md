@@ -4,7 +4,7 @@ PAF — Product Architecture Framework, [productframework.ru](https://productfra
 
 Labels: **PAF** — the tool is named on the PAF site, the card was in the original set; **PAF, added** — created based on the PAF description; **not from PAF** — not named in PAF as a tool.
 
-Total: 109 cards: PAF — 54, PAF, added — 37, not from PAF — 18.
+Total: 110 cards: PAF — 54, PAF, added — 37, not from PAF — 19.
 
 PAF's descriptions are fuller for tools that PAF has a page for, and thinner for placeholders (SMART Goals, Storytelling, MVP: the site only has the name). Some added cards rely on third-party primary sources, and their cases are mostly not from e-commerce and fintech (the quality report is kept outside the repository).
 
@@ -18,6 +18,7 @@ Not covered (present in PAF, no separate card): 4 Actions Model (in Strategy Can
 | [ADL Matrix](skills/business-analysis/adl-matrix/card.md) | PAF, added | [/activities/market_analysis](https://productframework.ru/activities/market_analysis) |  |
 | [Ansoff Matrix](skills/business-analysis/ansoff-matrix/card.md) | not from PAF; added for a gap (H. Igor Ansoff, Harvard Business Review, 1957) | — | original article not opened (HBR page unavailable); bibliography from secondary pages |
 | [BCG Matrix](skills/business-analysis/bcg-matrix/card.md) | not from PAF | — | Own portfolio (canonical use) and own products vs. competitors in one market |
+| [GE–McKinsey Matrix](skills/business-analysis/ge-mckinsey-matrix/card.md) | not from PAF; added for a gap (McKinsey Quarterly, K. Coyne, 2008) | — | factors, weights and cut-offs are not set by the source; Hax and Majluf 1983 and Allen 1977 not opened; the example is eBay 2019 with our scoring (the company did not use the matrix, K5=1) |
 | [Product Lifecycle](skills/business-analysis/product-lifecycle/card.md) | not from PAF | — |  |
 | [Sales Funnel](skills/business-analysis/sales-funnel/card.md) | PAF | [/activities/acquisition_strategy_design](https://productframework.ru/activities/acquisition_strategy_design) |  |
 | [Segment Scoring](skills/business-analysis/segment-scoring/card.md) | PAF | [/activities/segment_scoring](https://productframework.ru/activities/segment_scoring) | formula author not named |
@@ -193,6 +194,7 @@ Used by `pdm-brief` to keep only the tools that give an honest result with the d
 | `abc-analysis` | local, manual | analysis | per-object values for one period from one source, as a table or file, or typed totals | reviewed |
 | `adl-matrix` | none, web | analysis | business-unit facts, industry-stage factors and position evidence as judgment, plus public industry facts | reviewed |
 | `bcg-matrix` | web, local, manual | analysis | market growth and shares per unit (public or estimated), plus unit revenue and cash flow | reviewed |
+| `ge-mckinsey-matrix` | none, web, local, manual | analysis | units to place, factors, weights and 1-to-5 or 0-to-10 ratings per unit as the user's judgment with a stated basis; hard market data is optional | draft |
 | `product-lifecycle` | web, local, manual | analysis | one comparable metric by year for every year of the product from one source, plus supporting signs | reviewed |
 | `sales-funnel` | local, manual | analysis | customer counts entering each funnel stage and time per stage for one period, plus a baseline | reviewed |
 | `segment-scoring` | none, web, local, manual | analysis | candidate segment descriptions and criteria judgments, plus facts behind scores such as market size, prices and interviews | reviewed |
@@ -314,7 +316,7 @@ A chain is the order of tools for one piece of work, given by position. A positi
 Rule for `pdm-brief`: take the positions in order. When the tools it needs sit in non-adjacent positions, take every position between them and one tool from each.
 
 - Market and strategy: [PESTEL Analysis](skills/business-research/pestel-analysis/card.md) → [Impact Mapping](skills/product-planning/impact-mapping/card.md) → [Metric Pyramid](skills/product-planning/metric-pyramid/card.md) or [HEART Metrics](skills/product-planning/heart-metrics/card.md) → [Cost-Benefit Analysis](skills/product-planning/cost-benefit-analysis/card.md)
-- SWOT and strategy matrix: external methods [PESTEL Analysis](skills/business-research/pestel-analysis/card.md), [Porter's Five Forces](skills/business-research/porters-five-forces/card.md), [Competition Map](skills/business-research/competition-map/card.md) and internal methods [Value Chain & Nets](skills/business-analysis/value-chain-and-nets/card.md), [Unit Economics](skills/business-analysis/unit-economics/card.md), [BCG Matrix](skills/business-analysis/bcg-matrix/card.md) → [SWOT Analysis](skills/business-analysis/swot-analysis/card.md), whose extended matrix (TOWS) turns the factors into strategies: SO, ST, WO, WT. Both groups feed SWOT: take the methods the task needs from each group, one or more. This is not a line: SWOT has no successor in the chain, and Impact Mapping does not follow it.
+- SWOT and strategy matrix: external methods [PESTEL Analysis](skills/business-research/pestel-analysis/card.md), [Porter's Five Forces](skills/business-research/porters-five-forces/card.md), [Competition Map](skills/business-research/competition-map/card.md) and internal methods [Value Chain & Nets](skills/business-analysis/value-chain-and-nets/card.md), [Unit Economics](skills/business-analysis/unit-economics/card.md), [BCG Matrix](skills/business-analysis/bcg-matrix/card.md) or [GE–McKinsey Matrix](skills/business-analysis/ge-mckinsey-matrix/card.md) → [SWOT Analysis](skills/business-analysis/swot-analysis/card.md), whose extended matrix (TOWS) turns the factors into strategies: SO, ST, WO, WT. Both groups feed SWOT: take the methods the task needs from each group, one or more. This is not a line: SWOT has no successor in the chain, and Impact Mapping does not follow it.
 - Initiative review: [Working Backwards PR/FAQ](skills/product-planning/working-backwards-pr-faq/card.md) → [Pre-mortem](skills/product-validation/pre-mortem/card.md) → [RAPID Decision Rights](skills/business-planning/rapid-decision-rights/card.md)
 - Discovery and sequencing: [Opportunity Solution Tree](skills/product-planning/opportunity-solution-tree/card.md) → [MoSCoW Prioritization](skills/product-planning/moscow-prioritization/card.md) or [RICE Scoring](skills/product-planning/rice-scoring/card.md) → [Now-Next-Later Roadmap](skills/product-planning/now-next-later-roadmap/card.md)
 - Growth direction: [Ansoff Matrix](skills/business-analysis/ansoff-matrix/card.md) → [Cost-Benefit Analysis](skills/product-planning/cost-benefit-analysis/card.md)
