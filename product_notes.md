@@ -4,7 +4,7 @@ PAF — Product Architecture Framework, [productframework.ru](https://productfra
 
 Labels: **PAF** — the tool is named on the PAF site, the card was in the original set; **PAF, added** — created based on the PAF description; **not from PAF** — not named in PAF as a tool.
 
-Total: 102 cards: PAF — 54, PAF, added — 37, not from PAF — 11.
+Total: 109 cards: PAF — 54, PAF, added — 37, not from PAF — 18.
 
 PAF's descriptions are fuller for tools that PAF has a page for, and thinner for placeholders (SMART Goals, Storytelling, MVP: the site only has the name). Some added cards rely on third-party primary sources, and their cases are mostly not from e-commerce and fintech (the quality report is kept outside the repository).
 
