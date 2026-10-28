@@ -39,6 +39,9 @@ The folder column is the category and stage folder under `skills/`.
 | `pre-mortem` | product-validation | Imagine the plan has failed, list why, and change the plan before it starts |
 | `product-lifecycle` | business-analysis | Find a product's lifecycle stage from sales history and choose invest, extend or harvest |
 | `rapid-decision-rights` | business-planning | Assign who recommends, agrees, performs, gives input and decides in one decision |
+| `balanced-scorecard` | business-planning | Turn strategy into goals, measures and targets across financial, customer, process and learning perspectives |
+| `pugh-matrix` | product-planning | Choose among alternatives by comparing each with a datum on fixed criteria: better, same, worse |
+| `risk-register` | business-planning | Keep one row per risk with likelihood, impact, owner and response; rank and review them |
 | `sales-funnel` | business-analysis | Measure conversion and time per stage from contact to deal; find the bottleneck |
 | `segment-scoring` | business-analysis | Score customer segments on size, ability to pay, pain and access; pick the focus |
 | `swot-analysis` | business-analysis | List strengths, weaknesses, opportunities, threats and cross them into strategies (TOWS) |

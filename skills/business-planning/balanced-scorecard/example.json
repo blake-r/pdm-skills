@@ -1,0 +1,19 @@
+{
+  "text": {
+    "title": "Analog Devices IC operations: QIP goals to 1992",
+    "strategy": "Business objectives: market leadership, revenue growth, profitability. Driver: be rated number 1 by customers in total value delivered",
+    "g1": "Market leadership, revenue growth, profitability",
+    "m1": "N/A: no financial measure on the slides read",
+    "t1": "N/A: no financial target on the slides read",
+    "g2": "Be rated number 1 by customers in total value delivered",
+    "m2": "On-time delivery; outgoing defect level; lead time; share of customer requested dates (CRDs) matched; excess lead time",
+    "t2": "1987 / 1990 / 1992 goal: delivery 85% / 96% / >99.8%; defects 500 / 230 / <10 PPM; lead time 10 / 5.4 / <3 weeks; CRDs matched 31% / 50% / n/a",
+    "g3": "Eliminate all forms of waste at all entities, functions and levels",
+    "m3": "Manufacturing cycle time; process defect level; yield",
+    "t3": "1987 / 1990 / 1992 goal: cycle time 15 / 8 / 4-5 weeks; process defects 5000 / 1100 / <10 PPM; yield 20% / 38% / >50%",
+    "g4": "Shorter time to market; reduced turnover",
+    "m4": "Time to market; labor turnover as a proxy for employee satisfaction; from FY1990 bookings of products introduced after 1985",
+    "t4": "Time to market 1987 / 1990 / 1992 goal: 36 months / not read / 6 months; turnover target not read",
+    "decision": "FY1990: delivery is measured against the customer's requested date; the old new-product measures, poor predictors, are replaced by a product tracking system and two innovation measures. FY1991-92: scorecard unchanged"
+  }
+}

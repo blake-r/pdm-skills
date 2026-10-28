@@ -34,7 +34,7 @@ The H1 heading is the original name of the tool. Then come eight H2 sections, st
 2. **When to use and when not to** — the situation, the required inputs, the boundaries of applicability.
 3. **Scheme** — the abstract template of the tool: a table, a diagram, a sequence of steps, a meeting agenda.
 4. **How to apply** — the step-by-step procedure: inputs, steps, formulas and scales, interpretation of the result.
-5. **Example** — a real public case, with a link (e-commerce and fintech are preferred; any other industry is allowed). The tool is shown applied in it, and the case is brought to an accepted decision.
+5. **Example** — a real public case, with a link (SaaS in e-commerce, fintech, EdTech or GameDev; PaaS and IaaS products are also considered; a case from another industry scores at most 1). The tool is shown applied in it, and the case is brought to an accepted decision.
 6. **Common mistakes** — pitfalls and wrong interpretations.
 7. **Source** — the author (or organization), the year, the context of appearance, and at least one working link to the primary source or an authoritative description. If there is no single author, the origin of the method is described.
 8. **See also** — tools of this set that are linked to this one, each with how to use them together. Format: one bullet per tool, `- <Phrase> <Tool name>: <how to use them together, one sentence>`. The phrase is one of: `Enhanced by` (the two work well together), `Alternative to` (the other tool solves the same problem differently), `Preceded by` (the other tool is done before this one), `Followed by` (the other tool is done after this one), `Improved by` (the other tool makes this one better, one-way), `Used to improve` (this tool makes the other one better, one-way). The tool name is the H1 of that tool's card, exactly. The section is checked by `build/quality_gate.py`: every name must match an existing card.
@@ -104,8 +104,8 @@ Checked against the primary source from the "Source" section. Checking on the in
 
 ### K5. Practicality
 
-- **2** — "How to apply" lets the tool be applied without other sources: inputs, steps, formulas and scales are given (for meetings — participants, duration, agenda), it is described how to interpret the result and which decision follows from it. The "Example" is a real public case from any industry (e-commerce and fintech preferred) with a link, in which the tool itself is visible in its own form: a filled-in board, table, chain or plan — taken from the source or reconstructed from it without speculation. The decision made on the basis of this form is also visible.
-- **1** — steps are present, but inputs or interpretation are skipped; or the example is not brought to a decision; or the tool is only mentioned in the case, or applied without a visible result in its own form.
+- **2** — "How to apply" lets the tool be applied without other sources: inputs, steps, formulas and scales are given (for meetings — participants, duration, agenda), it is described how to interpret the result and which decision follows from it. The "Example" is a real public case from SaaS in e-commerce, fintech, EdTech or GameDev (PaaS and IaaS products are also considered) with a link, in which the tool itself is visible in its own form: a filled-in board, table, chain or plan — taken from the source or reconstructed from it without speculation. The decision made on the basis of this form is also visible.
+- **1** — steps are present, but inputs or interpretation are skipped; or the example is not from SaaS (or PaaS or IaaS) in e-commerce, fintech, EdTech or GameDev; or the example is not brought to a decision; or the tool is only mentioned in the case, or applied without a visible result in its own form.
 - **0** — there are no steps; or the example is fictional or has no link to a source.
 
 ### K6. Catalog correctness

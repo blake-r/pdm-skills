@@ -1,0 +1,108 @@
+{
+  "text": {
+    "title": "Corning conveyor: stabilizing short ceramic parts, concept selection, first Pugh chart",
+    "datum": "Current T system (plexiglass T supports)",
+    "decision": "Sensor Gate and Swedish Wheels dropped; Magnetic Swivel became the datum of the next chart; the final three (Magnetic Swivel, Pincer, Self-nesting T) went to an AHP step, which chose Self-nesting T",
+    "alt1": "Magnetic Swivel",
+    "alt2": "Pincer",
+    "alt3": "4 Bar",
+    "alt4": "Sand Bag",
+    "alt5": "Sensor Gate",
+    "alt6": "2 Long Poles",
+    "alt7": "Swedish Wheels",
+    "alt8": "Self-nesting T"
+  },
+  "rows": [
+    [
+      "Protects Ceramics",
+      null,
+      "S",
+      "S",
+      "S",
+      "S",
+      "S",
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    [
+      "Scaleable for Ceramics",
+      null,
+      "S",
+      "+",
+      "+",
+      "S",
+      "+",
+      "S",
+      "+",
+      "+",
+      "S"
+    ],
+    [
+      "Limit Human Interaction",
+      null,
+      "S",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+"
+    ],
+    [
+      "Works with Given Space",
+      null,
+      "S",
+      "+",
+      "S",
+      "+",
+      "S",
+      "S",
+      "-",
+      "+",
+      "+"
+    ],
+    [
+      "Works with Conveyor Conditions",
+      null,
+      "S",
+      "+",
+      "S",
+      "+",
+      "+",
+      "S",
+      "+",
+      "+",
+      "+"
+    ],
+    [
+      "Material Choice",
+      null,
+      "S",
+      "-",
+      "-",
+      "-",
+      "S",
+      "-",
+      "S",
+      "-",
+      "-"
+    ],
+    [
+      "Improves Current Method",
+      null,
+      "S",
+      "+",
+      "+",
+      "+",
+      "S",
+      "S",
+      "S",
+      "S",
+      "+"
+    ]
+  ]
+}

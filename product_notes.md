@@ -4,7 +4,7 @@ PAF — Product Architecture Framework, [productframework.ru](https://productfra
 
 Labels: **PAF** — the tool is named on the PAF site, the card was in the original set; **PAF, added** — created based on the PAF description; **not from PAF** — not named in PAF as a tool.
 
-Total: 110 cards: PAF — 54, PAF, added — 37, not from PAF — 19.
+Total: 113 cards: PAF — 54, PAF, added — 37, not from PAF — 22.
 
 PAF's descriptions are fuller for tools that PAF has a page for, and thinner for placeholders (SMART Goals, Storytelling, MVP: the site only has the name). Some added cards rely on third-party primary sources, and their cases are mostly not from e-commerce and fintech (the quality report is kept outside the repository).
 
@@ -32,12 +32,14 @@ Not covered (present in PAF, no separate card): 4 Actions Model (in Strategy Can
 
 | Card | Origin | PAF Page | Note |
 |---|---|---|---|
+| [Balanced Scorecard](skills/business-planning/balanced-scorecard/card.md) | not from PAF; added for a gap (Kaplan and Norton, Harvard Business Review, 1992) | — | full text of the 1992 article not opened (paywall); no numeric targets in the sources read |
 | [Business Model Canvas](skills/business-planning/business-model-canvas/card.md) | PAF | [/activities/business_model_research](https://productframework.ru/activities/business_model_research) |  |
 | [Business Model Patterns](skills/business-planning/business-model-patterns/card.md) | PAF, added | [/activities/business_model_research](https://productframework.ru/activities/business_model_research) |  |
 | [Lean Canvas](skills/business-planning/lean-canvas/card.md) | PAF | [/product_concept](https://productframework.ru/product_concept) |  |
 | [Objectives and Key Results (OKR)](skills/business-planning/objectives-and-key-results/card.md) | PAF | [/business_goals](https://productframework.ru/business_goals) |  |
 | [Product Ecosystem Map](skills/business-planning/product-ecosystem-map/card.md) | PAF, added | [/product_ecosystem_map](https://productframework.ru/product_ecosystem_map) |  |
 | [RAPID Decision Rights](skills/business-planning/rapid-decision-rights/card.md) | not from PAF; added for a gap (Rogers and Blenko, HBR 2006; Bain & Company) | — |  |
+| [Risk Register](skills/business-planning/risk-register/card.md) | not from PAF; added for a gap (NIST IR 8286r1, December 2025) | — | NIST text is about cybersecurity and enterprise risk management; scales and rating bands are our adaptation |
 | [SMART Goals](skills/business-planning/smart-goals/card.md) | PAF, added | [/business_goals](https://productframework.ru/business_goals) |  |
 | [USP 4U Formula](skills/business-planning/usp-4u/card.md) | PAF, added | [/activities/competitive_positioning_design](https://productframework.ru/activities/competitive_positioning_design) |  |
 | [USP AIDA(s) Formula](skills/business-planning/usp-aida/card.md) | PAF, added | [/activities/competitive_positioning_design](https://productframework.ru/activities/competitive_positioning_design) |  |
@@ -139,6 +141,7 @@ Not covered (present in PAF, no separate card): 4 Actions Model (in Strategy Can
 | [Now-Next-Later Roadmap](skills/product-planning/now-next-later-roadmap/card.md) | not from PAF; added for a gap (Janna Bastow, ProdPad blog) | — |  |
 | [Opportunity Solution Tree](skills/product-planning/opportunity-solution-tree/card.md) | not from PAF; added for a gap (Teresa Torres, Product Talk) | — |  |
 | [Project Canvas](skills/product-planning/project-canvas/card.md) | PAF | [/project_portfolio](https://productframework.ru/project_portfolio) |  |
+| [Pugh Matrix](skills/product-planning/pugh-matrix/card.md) | not from PAF; added for a gap (Stuart Pugh, Total Design, 1991) | — | book and 1981 paper not opened; steps checked on secondary pages; in the example (Team 506, FAMU-FSU) the final choice came from AHP |
 | [RICE Scoring](skills/product-planning/rice-scoring/card.md) | not from PAF | — |  |
 | [SCAMPER Method](skills/product-planning/scamper-method/card.md) | not from PAF | — |  |
 | [Six Thinking Hats](skills/product-planning/six-thinking-hats/card.md) | not from PAF | — |  |
@@ -301,13 +304,15 @@ Used by `pdm-brief` to keep only the tools that give an honest result with the d
 | `pre-mortem` | none, local, manual | validation | described plan or launch and the people who will carry it out; no numbers needed (new card: row set from the card, PAF has no page) | reviewed |
 | `rapid-decision-rights` | none | planning | the decision to be made and the people and units involved in it (new card: row set from the card, PAF has no page) | reviewed |
 | `working-backwards-pr-faq` | none, web, local, manual | planning | product idea, target customer, the problem solved, and optional facts about the market or the customer (new card: row set from the card, PAF has no page) | reviewed |
+| `balanced-scorecard` | none, local, manual | planning | strategy and objectives of the company, candidate measures for four perspectives, and optional current values and targets (new card: row set from the card, PAF has no page) | draft |
+| `pugh-matrix` | none, local, manual | planning | alternatives to choose from, selection criteria, a datum alternative, and the team's judgments better, same or worse for each criterion (new card: row set from the card, PAF has no page) | draft |
+| `risk-register` | none, local, manual | planning | the plan or product, the risks the team sees, and for each its likelihood, impact and owner on the card's scale (new card: row set from the card, PAF has no page) | draft |
 
 ## Gaps
 
-Decisions a product team has to make that no card in this catalog covers, and that have no primary source yet. A card is added only when a primary source exists (the method's author or publisher, or the official page of a standard). Each entry: the decision, what is missing, what was searched. - Balanced Scorecard (Kaplan and Norton, Harvard Business Review, 1992): primary source exists, card not written yet. Decision covered: translating strategy into measures across several perspectives.
-- Pugh matrix / weighted decision matrix (Stuart Pugh, Total Design, 1991): primary source exists, card not written yet. Decision covered: choosing between alternatives against fixed criteria.
-- Risk register: no single primary source found; ISO 31000 describes risk management but the standard text is paid. Not written.
+Decisions a product team has to make that no card in this catalog covers, and that have no primary source yet. A card is added only when a primary source exists (the method's author or publisher, or the official page of a standard). Each entry: the decision, what is missing, what was searched.
 
+No open gaps. Closed: Balanced Scorecard (Kaplan and Norton, HBR 1992), Pugh Matrix (Pugh, Total Design, 1991), Risk Register (NIST IR 8286r1, December 2025; ISO 31000 is paid, NIST SP 800-30 and 800-37 do not define the register, HM Treasury Orange Book gives no definition).
 
 ## Chains
 
@@ -317,8 +322,8 @@ Rule for `pdm-brief`: take the positions in order. When the tools it needs sit i
 
 - Market and strategy: [PESTEL Analysis](skills/business-research/pestel-analysis/card.md) → [Impact Mapping](skills/product-planning/impact-mapping/card.md) → [Metric Pyramid](skills/product-planning/metric-pyramid/card.md) or [HEART Metrics](skills/product-planning/heart-metrics/card.md) → [Cost-Benefit Analysis](skills/product-planning/cost-benefit-analysis/card.md)
 - SWOT and strategy matrix: external methods [PESTEL Analysis](skills/business-research/pestel-analysis/card.md), [Porter's Five Forces](skills/business-research/porters-five-forces/card.md), [Competition Map](skills/business-research/competition-map/card.md) and internal methods [Value Chain & Nets](skills/business-analysis/value-chain-and-nets/card.md), [Unit Economics](skills/business-analysis/unit-economics/card.md), [BCG Matrix](skills/business-analysis/bcg-matrix/card.md) or [GE–McKinsey Matrix](skills/business-analysis/ge-mckinsey-matrix/card.md) → [SWOT Analysis](skills/business-analysis/swot-analysis/card.md), whose extended matrix (TOWS) turns the factors into strategies: SO, ST, WO, WT. Both groups feed SWOT: take the methods the task needs from each group, one or more. This is not a line: SWOT has no successor in the chain, and Impact Mapping does not follow it.
-- Initiative review: [Working Backwards PR/FAQ](skills/product-planning/working-backwards-pr-faq/card.md) → [Pre-mortem](skills/product-validation/pre-mortem/card.md) → [RAPID Decision Rights](skills/business-planning/rapid-decision-rights/card.md)
-- Discovery and sequencing: [Opportunity Solution Tree](skills/product-planning/opportunity-solution-tree/card.md) → [MoSCoW Prioritization](skills/product-planning/moscow-prioritization/card.md) or [RICE Scoring](skills/product-planning/rice-scoring/card.md) → [Now-Next-Later Roadmap](skills/product-planning/now-next-later-roadmap/card.md)
+- Initiative review: [Working Backwards PR/FAQ](skills/product-planning/working-backwards-pr-faq/card.md) → [Pre-mortem](skills/product-validation/pre-mortem/card.md) → [Risk Register](skills/business-planning/risk-register/card.md) → [RAPID Decision Rights](skills/business-planning/rapid-decision-rights/card.md)
+- Discovery and sequencing: [Opportunity Solution Tree](skills/product-planning/opportunity-solution-tree/card.md) → [MoSCoW Prioritization](skills/product-planning/moscow-prioritization/card.md), [RICE Scoring](skills/product-planning/rice-scoring/card.md) or [Pugh Matrix](skills/product-planning/pugh-matrix/card.md) → [Now-Next-Later Roadmap](skills/product-planning/now-next-later-roadmap/card.md)
 - Growth direction: [Ansoff Matrix](skills/business-analysis/ansoff-matrix/card.md) → [Cost-Benefit Analysis](skills/product-planning/cost-benefit-analysis/card.md)
 - Segments to focus on: [Segment Scoring](skills/business-analysis/segment-scoring/card.md) → [ABCDX Segmentation](skills/product-analysis/abcdx-segmentation/card.md) or [RFM Analysis](skills/product-analysis/rfm-analysis/card.md)
 - Market size and economics: [TAM SAM SOM Model](skills/business-research/tam-sam-som-model/card.md) → [Unit Economics](skills/business-analysis/unit-economics/card.md) → [Cost-Benefit Analysis](skills/product-planning/cost-benefit-analysis/card.md)
@@ -326,3 +331,4 @@ Rule for `pdm-brief`: take the positions in order. When the tools it needs sit i
 - Scope and handoff: [Feature Canvas](skills/product-planning/feature-canvas/card.md) or [Impact Mapping](skills/product-planning/impact-mapping/card.md) → [Product Requirements Document](skills/product-handoff/product-requirements-document/card.md) → [User Story](skills/product-handoff/user-story/card.md) → [Use Case](skills/product-handoff/use-case/card.md)
 - Release plan: [Impact Mapping](skills/product-planning/impact-mapping/card.md) → [Story Mapping](skills/product-handoff/story-mapping/card.md)
 - Measurement: [Metric Pyramid](skills/product-planning/metric-pyramid/card.md) or [HEART Metrics](skills/product-planning/heart-metrics/card.md) → [Cost-Benefit Analysis](skills/product-planning/cost-benefit-analysis/card.md)
+- Strategy to measures: [Objectives and Key Results (OKR)](skills/business-planning/objectives-and-key-results/card.md) or [Balanced Scorecard](skills/business-planning/balanced-scorecard/card.md) → [Metric Pyramid](skills/product-planning/metric-pyramid/card.md) or [HEART Metrics](skills/product-planning/heart-metrics/card.md)

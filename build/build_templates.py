@@ -8961,6 +8961,401 @@ class WorkingBackwardsPrFaq(PptxSpec):
               fill=ACCENT_BG, line=None)
 
 
+class BalancedScorecard(PptxSpec):
+    @property
+    def rel(self):
+        return "business-planning/balanced-scorecard/balanced-scorecard.pptx"
+
+    example = {"text": {
+        "title": "Analog Devices IC operations: QIP goals to 1992",
+        "strategy": "Business objectives: market leadership, revenue growth, profitability. Driver: be rated number 1 by customers in total value delivered",
+        "g1": "Market leadership, revenue growth, profitability",
+        "m1": "N/A: no financial measure on the slides read",
+        "t1": "N/A: no financial target on the slides read",
+        "g2": "Be rated number 1 by customers in total value delivered",
+        "m2": "On-time delivery; outgoing defect level; lead time; share of customer requested dates (CRDs) matched; excess lead time",
+        "t2": "1987 / 1990 / 1992 goal: delivery 85% / 96% / >99.8%; defects 500 / 230 / <10 PPM; lead time 10 / 5.4 / <3 weeks; CRDs matched 31% / 50% / n/a",
+        "g3": "Eliminate all forms of waste at all entities, functions and levels",
+        "m3": "Manufacturing cycle time; process defect level; yield",
+        "t3": "1987 / 1990 / 1992 goal: cycle time 15 / 8 / 4-5 weeks; process defects 5000 / 1100 / <10 PPM; yield 20% / 38% / >50%",
+        "g4": "Shorter time to market; reduced turnover",
+        "m4": "Time to market; labor turnover as a proxy for employee satisfaction; from FY1990 bookings of products introduced after 1985",
+        "t4": "Time to market 1987 / 1990 / 1992 goal: 36 months / not read / 6 months; turnover target not read",
+        "decision": "FY1990: delivery is measured against the customer's requested date; the old new-product measures, poor predictors, are replaced by a product tracking system and two innovation measures. FY1991-92: scorecard unchanged",
+    }}
+
+    def draw(self, prs, slide):
+        header(slide, "BALANCED SCORECARD · FOUR PERSPECTIVES",
+               "{{title: company or unit and the period}}")
+        sh = slide.shapes
+        left, full, g = 0.5, 12.33, 0.06
+        lw = 2.5
+        cw = (full - lw - 3 * g) / 3
+        text(box(sh, left, 1.25, full, 0.5, fill=ACCENT_BG, line=None),
+             "{{strategy: the strategy or vision the scorecard serves}}", size=10, bold=True, anchor=MSO_ANCHOR.MIDDLE)
+        y = 1.85
+        for i, tag in enumerate(["Goals", "Measures", "Targets"]):
+            label(sh, left + lw + g + i * (cw + g), y, cw, 0.3, tag, size=11, bold=True, color=ACCENT)
+        y += 0.32
+        rows = [
+            ("Financial", "How do we look to shareholders?"),
+            ("Customer", "How do customers see us?"),
+            ("Internal business process", "What must we excel at?"),
+            ("Innovation and learning", "Can we continue to improve and create value?"),
+        ]
+        rh = 0.98
+        for r, (name, question) in enumerate(rows, start=1):
+            tb = text(box(sh, left, y, lw, rh, fill=ACCENT, line=None), name, size=11, bold=True, color=WHITE)
+            p = tb.text_frame.add_paragraph()
+            run = p.add_run()
+            run.text = question
+            run.font.size, run.font.name, run.font.color.rgb = Pt(9), FONT, WHITE
+            for i, key in enumerate("gmt"):
+                hint = {"g": "what we want to achieve", "m": "how we measure it", "t": "target value and date"}[key]
+                text(box(sh, left + lw + g + i * (cw + g), y, cw, rh),
+                     "{{%s%d: %s in this perspective}}" % (key, r, hint), size=9)
+            y += rh + g
+        label(sh, left, y + 0.02, 1.9, 0.3, "Decision", size=11, bold=True)
+        text(box(sh, left, y + 0.3, full, 0.82, fill=ACCENT_BG, line=None),
+             "{{decision: what the scorecard changed in the plan or the measures}}", size=10, anchor=MSO_ANCHOR.MIDDLE)
+
+
+class PughMatrix(XlsxSpec):
+    @property
+    def rel(self):
+        return "product-planning/pugh-matrix/pugh-matrix.xlsx"
+
+    _alts = ["Magnetic Swivel", "Pincer", "4 Bar", "Sand Bag", "Sensor Gate", "2 Long Poles", "Swedish Wheels",
+             "Self-nesting T"]
+    _rows = [  # criterion, one mark per alternative in the order of _alts
+        ("Protects Ceramics", "SSSSSSSS"),
+        ("Scaleable for Ceramics", "++S+S++S"),
+        ("Limit Human Interaction", "++++++++"),
+        ("Works with Given Space", "+S+SS-++"),
+        ("Works with Conveyor Conditions", "+S++S+++"),
+        ("Material Choice", "---S-S--"),
+        ("Improves Current Method", "+++SSSS+"),
+    ]
+    example = {
+        "text": {
+            "title": "Corning conveyor: stabilizing short ceramic parts, concept selection, first Pugh chart",
+            "datum": "Current T system (plexiglass T supports)",
+            "decision": "Sensor Gate and Swedish Wheels dropped; Magnetic Swivel became the datum of the next chart; "
+                        "the final three (Magnetic Swivel, Pincer, Self-nesting T) went to an AHP step, which chose Self-nesting T",
+            **dict(zip([f"alt{i}" for i in range(1, 9)], _alts)),
+        },
+        "rows": [[crit, None, "S", *list(marks)] for crit, marks in _rows],
+    }
+
+    def draw(self, wb):
+        from openpyxl.styles import Alignment, Font, PatternFill, Border, Side
+        from openpyxl.workbook.defined_name import DefinedName
+        from openpyxl.worksheet.datavalidation import DataValidation
+
+        ws = wb.active
+        ws.title = "Pugh"
+        bold = Font(name=FONT, bold=True, size=11)
+        regular = Font(name=FONT, size=11)
+        grey = Font(name=FONT, size=11, color="6B7280")
+        head_fill = PatternFill("solid", fgColor="E8F0FC")
+        datum_fill = PatternFill("solid", fgColor="F3F4F6")
+        thin = Side(style="thin", color="C9CED6")
+        center = Alignment(horizontal="center", vertical="center")
+
+        ws["A1"] = "Pugh Matrix: {{title: the decision and the product, in one line}}"
+        ws["A1"].font = Font(name=FONT, bold=True, size=14)
+        ws["A2"] = ("Mark every alternative against the datum, criterion by criterion: + better, S same, - worse. "
+                    "The counts below are the result; Pugh says the marks must not be summed as absolute scores. "
+                    "Importance (High, Medium, Low) is optional.")
+        ws["A2"].font = grey
+        ws.merge_cells("A1:L1")
+        ws.merge_cells("A2:L2")
+
+        n_alt, first, last = 8, 5, 34
+        cols = list(range(4, 4 + n_alt))  # D..K
+        wcol = 4 + n_alt                  # L: weight used
+        L = lambda c: ws.cell(4, c).column_letter
+
+        headers = [
+            ("Criterion", "Criterion: one clear requirement per row, defined so that two people mark it the same way", 34),
+            ("Importance\n(optional)", "Importance: Pugh grades criteria in three categories (important, moderately "
+                                        "important, desirable), not numerically. Enter High, Medium or Low. A number is "
+                                        "accepted for the later-practice weighted net only. Agree before marking.", 12),
+            ("Datum: {{datum: baseline alternative: the current solution or the strongest known one}}",
+             "Datum: the reference every alternative is compared with. Its column is always S.", 18),
+        ]
+        for i in range(1, n_alt + 1):
+            headers.append(("{{alt%d: alternative %d, described at the same level of detail}}" % (i, i),
+                            "Alternative %d: mark each criterion + (better than the datum), S (same) or - (worse)" % i, 16))
+        headers.append(("Weight\nused", "Calculated automatically, for the later-practice weighted net only: High 3, Medium 2, "
+                                         "Low 1, a typed number as is, 1 if blank; 0 on empty rows.", 10))
+        for i, (title, hint, width) in enumerate(headers, start=1):
+            c = ws.cell(4, i, title)
+            c.font, c.fill = bold, head_fill
+            c.alignment = Alignment(wrap_text=True, vertical="center", horizontal="left" if i == 1 else "center")
+            c.border = Border(bottom=thin)
+            c.comment = Comment(hint, "pdm-skills", width=260, height=110)
+            ws.column_dimensions[c.column_letter].width = width
+        ws.row_dimensions[4].height = 62
+
+        for r in range(first, last + 1):
+            ws.cell(r, wcol, f'=IF(A{r}="",0,IF(B{r}="High",3,IF(B{r}="Medium",2,IF(B{r}="Low",1,IF(ISNUMBER(B{r}),B{r},1)))))').number_format = "0.##;-0.##;;@"
+            ws.cell(r, wcol).font = grey
+            for c in range(1, wcol + 1):
+                cell = ws.cell(r, c)
+                if c != wcol:
+                    cell.font = regular
+                if 2 <= c < wcol:
+                    cell.alignment = center
+                if 3 <= c < wcol:
+                    cell.number_format = "@"
+            ws.cell(r, 3).fill = datum_fill
+
+        top, bottom = first, last
+        rows = [
+            ("Better (+)", lambda c: f'=IF({c}$4="","",SUMPRODUCT(({c}${top}:{c}${bottom}="+")*1))'),
+            ("Same (S)", lambda c: f'=IF({c}$4="","",SUMPRODUCT(({c}${top}:{c}${bottom}="S")*1))'),
+            ("Worse (-)", lambda c: f'=IF({c}$4="","",SUMPRODUCT(({c}${top}:{c}${bottom}="-")*1))'),
+            ("Criteria not marked", lambda c: f'=IF({c}$4="","",SUMPRODUCT(($A${top}:$A${bottom}<>"")*({c}${top}:{c}${bottom}="")))'),
+            ("Later practice, not Pugh's (the marks must not be summed):", None),
+            ("Net (better minus worse)", lambda c: f'=IF({c}$4="","",{c}36-{c}38)'),
+            ("Weighted net", lambda c: (f'=IF({c}$4="","",SUMPRODUCT($L${top}:$L${bottom}*({c}${top}:{c}${bottom}="+"))'
+                                        f'-SUMPRODUCT($L${top}:$L${bottom}*({c}${top}:{c}${bottom}="-")))')),
+            ("Rank by net", lambda c: f'=IF({c}$4="","",RANK({c}41,$D$41:$K$41))'),
+            ("Rank by weighted net", lambda c: f'=IF({c}$4="","",RANK({c}42,$D$42:$K$42))'),
+        ]
+        for k, (name, make) in enumerate(rows):
+            r = 36 + k
+            a = ws.cell(r, 1, name)
+            a.font = bold
+            for c in range(1, wcol + 1):
+                ws.cell(r, c).border = Border(top=thin) if k == 0 else Border()
+            if make is None:
+                a.font = Font(name=FONT, italic=True, size=10, color="6B7280")
+                continue
+            for c in cols:
+                cell = ws.cell(r, c, make(L(c)))
+                cell.font, cell.alignment = (bold if name.startswith("Net") else regular), center
+        ws.cell(36, 3, "S only").font = grey
+        ws.cell(36, 3).alignment = center
+        ws["A46"] = "Decision: {{decision: which alternatives are dropped, combined or taken forward, and why}}"
+        ws["A46"].font = bold
+        ws.merge_cells("A46:L46")
+        ws["A47"] = ("Read the pattern, not only the totals: an alternative with many + can still lose on the criterion "
+                     "that matters most. The matrix does not make the decision; control stays with the participants.")
+        ws["A47"].font = grey
+        ws.merge_cells("A47:L47")
+        ws.freeze_panes = "C5"
+        wb.defined_names["data_start"] = DefinedName("data_start", attr_text="Pugh!$A$5")
+
+        dv_mark = DataValidation(type="list", formula1='"+,S,-"', allow_blank=True, errorStyle="stop",
+                                 showErrorMessage=True, errorTitle="Mark", error="Use + (better), S (same) or - (worse)")
+        dv_datum = DataValidation(type="list", formula1='"S"', allow_blank=True, errorStyle="stop",
+                                  showErrorMessage=True, errorTitle="Datum", error="The datum is always S")
+        dv_w = DataValidation(type="list", formula1='"High,Medium,Low"', allow_blank=True, errorStyle="warning",
+                              showErrorMessage=True, errorTitle="Importance",
+                              error="Pugh grades criteria High, Medium or Low; a number is accepted for the weighted net")
+        dv_mark.add(f"D{first}:K{last}")
+        dv_datum.add(f"C{first}:C{last}")
+        dv_w.add(f"B{first}:B{last}")
+        for dv in (dv_mark, dv_datum, dv_w):
+            ws.add_data_validation(dv)
+
+
+class RiskRegister(XlsxSpec):
+    @property
+    def rel(self):
+        return "business-planning/risk-register/risk-register.xlsx"
+
+    _risks = [
+        ("Risk 01/26", "Partnership may be unable to fully deliver the HOIP strategic priorities",
+         "Limited or uncertain resources, weak cross-partner coordination, competing organisational pressures, weak performance monitoring",
+         "Reduced impact for communities, missed statutory or strategic commitments, lower confidence in the partnership",
+         "People, Place, Prosperity", "CPP Board", 4, 3,
+         "Strengthen delivery oversight and escalation routes; agree priority areas for focused action; confirm agency leads"),
+        ("Risk 02/26", "Partnership may be unable to sustain long-term financial viability or align funding streams",
+         "Reducing or unpredictable budgets, competing demands, short-term or ring-fenced funding, little flexibility to redirect money",
+         "Constrained delivery, hindered strategic planning, less ability to invest in preventative or joint approaches",
+         "People, Place, Prosperity", "CPP Senior Officers Group", 4, 5,
+         "Agree budget arrangements beyond May 2027 and partner contributions; align funding streams; explore joint investment, bids and pooled resources"),
+        ("Risk 03/26", "Insufficient capacity and critical skills limit delivery of services and priorities",
+         "Recruitment and retention problems, ageing workforce, limited specialist expertise, difficulty attracting talent to remote areas",
+         "Lower service resilience, hindered innovation, weaker ability to meet current and future needs",
+         "People, Place, Prosperity", "CPP Senior Officers Group", 3, 2,
+         "Develop and implement a new Induction Module; review induction materials regularly"),
+        ("Risk 04/26", "Barriers to accessing services continue, particularly in remote and rural communities",
+         "Poor digital connectivity, limited access to technology, geographic isolation, workforce shortages, financial pressures",
+         "Reduced engagement with services, widening inequalities, slower progress toward HOIP priorities",
+         "People, Place", "CPP Board", 3, 3,
+         "Target communities with poor internet or mobile signal; support community broadband projects; expand awareness campaigns"),
+        ("Risk 05/26", "Cost-of-living crisis and persistent poverty increase demand for support services",
+         "Ongoing cost-of-living crisis; persistent levels of poverty",
+         "Worse health and wellbeing, wider inequalities, strain on limited resources, less capacity for preventative support",
+         "People, Prosperity", "Poverty Reduction Delivery Group", 4, 5,
+         "Strengthen coordination of hardship and crisis support; locality-based interventions; Poverty Reduction Action Plan; better signposting"),
+        ("Risk 06/26", "Ineffective engagement may reduce public confidence in partnership decision-making",
+         "Ineffective engagement, limited participation, few chances for communities to influence decisions",
+         "Lower involvement in local initiatives, less support for service changes, diminished impact of HOIP priorities",
+         "People, Place, Prosperity", "CPP Board", 3, 4,
+         "Strengthen lived experience forums; publish regular 'You Said / We Did' updates; produce an accessible annual report"),
+        ("Risk 07/26", "CPP may not fully implement or align with Scottish Government policies and statutory duties",
+         "Limited capacity, competing priorities, insufficient coordination, unclear national guidance",
+         "Non-compliance, reputational harm, missed statutory or strategic commitments",
+         "People, Place, Prosperity", "CPP Senior Officers Group", 4, 4,
+         "Build a Policy Implementation Tracker; assign leads per policy area; annual compliance reviews; forward planning"),
+        ("Risk 08/26", "CPP may be unable to maintain fit-for-purpose data-sharing agreements and data collection",
+         "Poor data quality, inconsistent sharing practices, gaps in analytical capacity",
+         "Weaker understanding of local need, planning, decisions and evaluation of impact",
+         "People, Place, Prosperity", "CPP Senior Officers Group", 3, 4,
+         "Develop data-sharing agreements; improve consistency of shared data; strengthen analytical capacity; implement the indicator framework"),
+    ]
+    example = {
+        "text": {
+            "title": "Highland Community Planning Partnership, Strategic Risk Register as at January 2026",
+            "scope": "Delivery of the Highland Outcome Improvement Plan (HOIP) 2024-2027, reported to the Board on 10 March 2026",
+            "decision": "Board noted the update and agreed the revised approach, including the Risk Appetite Statement applied to all "
+                        "strategic risks; funding (02/26), policy implementation (07/26) and data sharing (08/26) seen above appetite",
+        },
+        "rows": [[r[0], r[1], r[2], r[3], r[4], r[5], r[6], r[7], None, r[8], None, None, None, None] for r in _risks],
+    }
+
+    def draw(self, wb):
+        from openpyxl.formatting.rule import CellIsRule, FormulaRule
+        from openpyxl.styles import Alignment, Font, PatternFill, Border, Side
+        from openpyxl.workbook.defined_name import DefinedName
+        from openpyxl.worksheet.datavalidation import DataValidation
+
+        ws = wb.active
+        ws.title = "Risk register"
+        bold = Font(name=FONT, bold=True, size=11)
+        regular = Font(name=FONT, size=11)
+        muted = Font(name=FONT, size=11, color="6B7280")
+        head_fill = PatternFill("solid", fgColor="E8F0FC")
+        calc_fill = PatternFill("solid", fgColor="F3F4F6")
+        input_fill = PatternFill("solid", fgColor="FFF8E1")
+        thin = Side(style="thin", color="C9CED6")
+        top_wrap = Alignment(wrap_text=True, vertical="top")
+
+        ws["A1"] = "Risk Register: {{title: what the register covers, organization or product, and the date}}"
+        ws["A1"].font = Font(name=FONT, bold=True, size=14)
+        ws.merge_cells("A1:R1")
+        ws["A2"] = "Scope:"
+        ws["A2"].font = muted
+        ws["C2"] = "{{scope: the objective or project whose risks are listed, and who reviews the register}}"
+        ws["A3"] = "Decision:"
+        ws["A3"].font = muted
+        ws["C3"] = "{{decision: what the review decided about the top risks: response, escalation or acceptance}}"
+        for r in (2, 3):
+            ws.cell(r, 3).font = bold
+            ws.cell(r, 3).alignment = top_wrap
+            ws.merge_cells(f"C{r}:N{r}")
+            ws.row_dimensions[r].height = 32
+
+        hr, first, last = 5, 6, 55
+        headers = [
+            ("ID", "Risk identifier: a short code that does not change, for example R-01. Used to refer to the risk in meetings and reports.", 11),
+            ("Risk statement", "The risk as one event that could happen, in common phrasing so rows compare: what could happen to which asset or objective. "
+                               "Not \"supplier issues\" but \"main payment provider is unavailable for more than a day\".", 40),
+            ("Cause", "What makes the event possible: the threat, weakness or condition behind it.", 34),
+            ("Effect", "What happens to the objective if the event occurs: money, customers, schedule, compliance, reputation.", 34),
+            ("Category", "Theme for grouping rows and comparing registers, for example operational, financial, legal, technology, market.", 18),
+            ("Owner", "One named person accountable for keeping this risk within agreed limits. A group or \"team\" is not an owner.", 20),
+            ("Likelihood\n(1-5)", "How likely the event is now, with existing controls: 1 rare, 2 unlikely, 3 possible, 4 likely, 5 almost certain. "
+                                 "Write the meaning of each level down before scoring.", 12),
+            ("Impact\n(1-5)", "How severe the effect is now, with existing controls: 1 minor to 5 severe. Define each level in money, customers or delay "
+                              "before scoring.", 12),
+            ("Response type", "Accept (monitor only, within tolerance), transfer (share the consequences, for example insurance), mitigate (reduce likelihood or "
+                              "impact), avoid (do not take the action). For opportunities: realize, share, enhance, accept.", 14),
+            ("Response", "What will be done, by whom and by when. For accept, write what is monitored and the trigger to revisit.", 44),
+            ("Status", "Open, In progress (response under way) or Closed (risk ended or the response is complete and the risk is back within limits).", 13),
+            ("Date raised", "Date the risk was first entered in the register.", 12),
+            ("Last reviewed", "Date of the last reassessment of likelihood and impact.", 12),
+            ("Next review", "Date by which the risk must be reviewed again. Rows past this date are flagged.", 12),
+            ("Score", "Calculated: likelihood x impact. An ordinal number for ranking, not a probability or a loss.", 9),
+            ("Rating", "Calculated: High at or above the High-from score, Medium at or above the Medium-from score, otherwise Low. Bands are set in the summary.", 10),
+            ("Priority\nrank", "Calculated: 1 is the highest score among open risks; equal scores share a rank. Closed risks are not ranked.", 11),
+            ("Review flag", "Calculated: Overdue when the next review date is before today and the risk is not closed.", 11),
+        ]
+        for i, (title, hint, width) in enumerate(headers, start=1):
+            c = ws.cell(hr, i, title)
+            c.font, c.fill = bold, head_fill
+            c.alignment = Alignment(wrap_text=True, vertical="center", horizontal="center" if 7 <= i <= 8 or i >= 15 else "left")
+            c.border = Border(bottom=thin)
+            c.comment = Comment(hint, "pdm-skills", width=260, height=130)
+            ws.column_dimensions[c.column_letter].width = width
+        ws.row_dimensions[hr].height = 48
+
+        rng = lambda col: f"${col}${first}:${col}${last}"
+        for r in range(first, last + 1):
+            for c in range(1, 19):
+                cell = ws.cell(r, c)
+                cell.font = regular
+                cell.alignment = top_wrap if c not in (7, 8, 15, 16, 17, 18) else Alignment(horizontal="center", vertical="top")
+            for c in (12, 13, 14):
+                ws.cell(r, c).number_format = "yyyy-mm-dd"
+            ws.cell(r, 15, f'=IF(OR(G{r}="",H{r}=""),"",G{r}*H{r})')
+            ws.cell(r, 16, f'=IF(O{r}="","",IF(O{r}>=$U$6,"High",IF(O{r}>=$U$7,"Medium","Low")))')
+            ws.cell(r, 17, f'=IF(OR(O{r}="",K{r}="Closed"),"",1+COUNTIFS({rng("O")},">"&O{r},{rng("K")},"<>Closed"))')
+            ws.cell(r, 18, f'=IF(OR(N{r}="",K{r}="Closed"),"",IF(N{r}<TODAY(),"Overdue",""))')
+            for c in range(15, 19):
+                ws.cell(r, c).fill = calc_fill
+            ws.cell(r, 15).font = bold
+        ws.freeze_panes = ws.cell(first, 3)
+        wb.defined_names["data_start"] = DefinedName("data_start", attr_text=f"'Risk register'!$A${first}")
+
+        def dv(kind, ref, **kw):
+            d = DataValidation(type=kind, allow_blank=True, showErrorMessage=True, errorStyle="stop", **kw)
+            d.add(ref)
+            ws.add_data_validation(d)
+
+        dv("whole", f"G{first}:H{last}", operator="between", formula1="1", formula2="5",
+           errorTitle="Scale", error="Use a whole number from 1 to 5")
+        dv("list", f"I{first}:I{last}", formula1='"Accept,Transfer,Mitigate,Avoid,Realize,Share,Enhance"',
+           errorTitle="Response type", error="Accept, Transfer, Mitigate, Avoid (opportunities: Realize, Share, Enhance)")
+        dv("list", f"K{first}:K{last}", formula1='"Open,In progress,Closed"', errorTitle="Status", error="Open, In progress or Closed")
+        dv("date", f"L{first}:N{last}", operator="greaterThan", formula1="36526",
+           errorTitle="Date", error="Enter a date")
+
+        ws.conditional_formatting.add(f"P{first}:P{last}", CellIsRule(operator="equal", formula=['"High"'],
+                                      fill=PatternFill("solid", bgColor="FBEAEA"), font=Font(color="C63D3D", bold=True)))
+        ws.conditional_formatting.add(f"P{first}:P{last}", CellIsRule(operator="equal", formula=['"Medium"'],
+                                      fill=PatternFill("solid", bgColor="FFF4D6"), font=Font(color="8A6100", bold=True)))
+        ws.conditional_formatting.add(f"P{first}:P{last}", CellIsRule(operator="equal", formula=['"Low"'],
+                                      fill=PatternFill("solid", bgColor="E8F5EC"), font=Font(color="2E8B57", bold=True)))
+        ws.conditional_formatting.add(f"R{first}:R{last}", CellIsRule(operator="equal", formula=['"Overdue"'],
+                                      font=Font(color="C63D3D", bold=True)))
+
+        ws.column_dimensions["S"].width = 3
+        ws.column_dimensions["T"].width = 30
+        ws.column_dimensions["U"].width = 12
+        ws["T5"], ws["U5"] = "Summary", None
+        for ref in ("T5", "U5"):
+            ws[ref].font, ws[ref].fill = bold, head_fill
+        stats = [
+            ("High from (score)", 15, "Score at or above this value is rated High. Set it with your scale and risk appetite; 15 suits a 5 x 5 grid.", True),
+            ("Medium from (score)", 6, "Score at or above this value, and below High, is rated Medium; lower is Low.", True),
+            ("Risks listed", f'=COUNTA({rng("B")})', "Rows with a risk statement.", False),
+            ("High, not closed", f'=COUNTIFS({rng("P")},"High",{rng("K")},"<>Closed")', "Risks rated High that are not closed.", False),
+            ("Medium, not closed", f'=COUNTIFS({rng("P")},"Medium",{rng("K")},"<>Closed")', "Risks rated Medium that are not closed.", False),
+            ("Low, not closed", f'=COUNTIFS({rng("P")},"Low",{rng("K")},"<>Closed")', "Risks rated Low that are not closed.", False),
+            ("Closed", f'=COUNTIF({rng("K")},"Closed")', "Risks with status Closed.", False),
+            ("Review overdue", f'=COUNTIF({rng("R")},"Overdue")', "Open risks whose next review date has passed.", False),
+            ("Without owner", f'=SUMPRODUCT(({rng("B")}<>"")*({rng("F")}=""))', "Must be 0: a risk without an owner is nobody's.", False),
+            ("Without response", f'=SUMPRODUCT(({rng("B")}<>"")*({rng("J")}=""))', "Risks with an empty Response column.", False),
+            ("Highest score", f'=IF(COUNT({rng("O")})=0,"",MAX({rng("O")}))', "The largest score in the register.", False),
+        ]
+        for i, (name, value, hint, is_input) in enumerate(stats, start=6):
+            a = ws.cell(i, 20, name)
+            a.font = regular
+            a.comment = Comment(hint, "pdm-skills", width=260, height=90)
+            b = ws.cell(i, 21, value)
+            b.font = bold
+            b.fill = input_fill if is_input else calc_fill
+            b.alignment = Alignment(horizontal="center")
+        dv("whole", "U6:U7", operator="between", formula1="1", formula2="25",
+           errorTitle="Band", error="Use a whole number from 1 to 25")
+
+
 if __name__ == "__main__":
     import sys
     wanted = sys.argv[1:]
