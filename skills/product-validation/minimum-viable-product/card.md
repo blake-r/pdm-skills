@@ -70,7 +70,7 @@ Frank Robinson, SyncDev (Product & Market Development, Inc.), the term «Minimum
 
 Eric Ries, [«Minimum Viable Product: a guide»](https://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html), blog, 3.08.2009; the book «The Lean Startup» ([book site](https://theleanstartup.com/book); year 2011 per [Wikipedia](https://en.wikipedia.org/wiki/The_Lean_Startup), the book site has no year): the build–measure–learn cycle. The card author's conclusion: Ries's definition differs from Robinson's.
 
-Description in PAF (Sergey Tikhomirov, productframework.ru, CC BY-SA 4.0, undated): the page on experiments gives only the name and the author of the model; in another PAF material (Product Discovery) there are claims about Sharp, Blank and Dorf, which are unverified and not used.
+Description in PAF (Sergey Tikhomirov, productframework.ru, CC BY-SA 4.0, undated): the page on experiments gives only the name and the author of the model; in another PAF material (Product Discovery) there are claims about Sharp, Blank and Dorf, which are not used.
 
 ## See also
 

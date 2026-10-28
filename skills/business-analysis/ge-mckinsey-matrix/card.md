@@ -22,7 +22,7 @@ Limitations:
 - **No proven link between the axes and returns.** Critics note that no study shows attractive industries and strong units pay off.
 - **Synergies are ignored.** A unit that feeds another can look weak alone.
 - **It does not say how much to invest.** It sorts units, and the amount is a separate decision.
-- **Portfolio matrices can mislead.** In an experiment with the BCG matrix, 64% of 1,015 subjects who saw it chose the clearly worse investment (Armstrong and Brodie, 1994).
+- **Portfolio matrices can mislead.** In 27 experiments with 1,015 subjects in six countries, 63.5% of those in groups that used the BCG matrix chose the unprofitable project, against 44.7% in control groups (Armstrong and Brodie, 1994).
 - **No source gives numeric cut-offs** for high, medium and low.
 
 ## Scheme
@@ -87,7 +87,7 @@ Sources: [eBay 10-K 2019](https://www.sec.gov/Archives/edgar/data/1065088/000106
 
 McKinsey & Company, Kevin Coyne, ["Enduring Ideas: The GE–McKinsey nine-box matrix"](https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/enduring-ideas-the-ge-and-mckinsey-nine-box-matrix), McKinsey Quarterly, 1 September 2008: the matrix appeared in the early 1970s after the BCG matrix; two axes, industry attractiveness and competitive strength; three postures. The page lists no factors, weights or cut-offs.
 
-Procedure and discussion: A. C. Hax and N. S. Majluf, "The Use of the Industry Attractiveness-Business Strength Matrix in Strategic Planning", Interfaces 13(2), 1983, pp. 54-71 (INFORMS; text not opened). Original GE planning: M. G. Allen, "Diagramming GE's Planning for What's Watt", Planning Review, 1977 (text not opened). Effect on decisions: J. S. Armstrong and R. J. Brodie, ["Effects of portfolio planning methods on decision making: experimental results"](https://repository.upenn.edu/marketing_papers/15), International Journal of Research in Marketing 11(1), 1994 (BCG matrix, not this one; abstract only).
+Procedure and discussion: A. C. Hax and N. S. Majluf, "The Use of the Industry Attractiveness-Business Strength Matrix in Strategic Planning", Interfaces 13(2), 1983, pp. 54-71 (INFORMS, 1 April 1983). Original GE planning: M. G. Allen, "Diagramming GE's Planning for What's Watt", Planning Review 5(5), May 1977, pp. 3-9 (Emerald). Effect on decisions: J. S. Armstrong and R. J. Brodie, ["Effects of portfolio planning methods on decision making: experimental results"](https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Effects-of-portfolio-planning-methods-empirical-results.pdf), International Journal of Research in Marketing 11(1), 1994 (BCG matrix, not this one).
 
 ## See also
 

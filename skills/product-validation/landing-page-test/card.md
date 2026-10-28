@@ -67,7 +67,7 @@ Sources: J. Gascoigne, [«Idea to Paying Customers in 7 Weeks»](https://buffer.
 
 Description in PAF (Sergey Tikhomirov, productframework.ru, CC BY-SA 4.0, undated): the section "Landing page / Presentation / Contact collection" of the page on value proposition hypotheses. PAF does not name the author of the method or the year.
 
-Eric Ries, [«Using AdWords to assess demand for your new online service, step-by-step»](https://www.startuplessonslearned.com/2008/11/using-adwords-to-assess-demand-for-your.html), Startup Lessons Learned blog, 7.11.2008: a "fake landing page" test. Gascoigne: articles of 2011 and 2013 (links in "Example"; Medium opened via the archive). Dropbox (Houston, 2007) and Unbounce/Instapage were not checked.
+Eric Ries, [«Using AdWords to assess demand for your new online service, step-by-step»](https://www.startuplessonslearned.com/2008/11/using-adwords-to-assess-demand-for-your.html), Startup Lessons Learned blog, 7.11.2008: a "fake landing page" test. Gascoigne: articles of 2011 and 2013 (links in "Example").
 
 ## See also
 

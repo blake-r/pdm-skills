@@ -59,7 +59,7 @@ Sources: [Virgin Money, 2020](https://virginmoneyukplc.com/newsroom/article/part
 
 Description in PAF (Sergey Tikhomirov, [productframework.ru](https://productframework.ru/hypotheses/value_proposition), CC BY-SA 4.0, undated): the page on value-proposition hypotheses, section "Pilot project / Sample". PAF does not name the author of the method or the year; "a solution with the minimum set of features" is rendered as "trial solution".
 
-Steve Blank, [«Perfection By Subtraction»](https://steveblank.com/2010/03/04/perfection-by-subtraction-the-minimum-feature-set/), blog, 4.03.2010: the first version for "earlyvangelists" (early enthusiastic customers). Natalia Degtyareva, [«Pilot with a bank: how a startup does not crash on the runway»](https://habr.com/ru/companies/vtb/articles/462069/), Habr (VTB blog), 1.08.2019. Alina Aleshchenko, [«Effective piloting»](https://rb.ru/stories/effektivnoe-pilotirovanie/), RB.RU, 14.03.2025. HBR, McKinsey, Gartner were not used: full text is unavailable.
+Steve Blank, [«Perfection By Subtraction»](https://steveblank.com/2010/03/04/perfection-by-subtraction-the-minimum-feature-set/), blog, 4.03.2010: the first version for "earlyvangelists" (early enthusiastic customers). Natalia Degtyareva, [«Pilot with a bank: how a startup does not crash on the runway»](https://habr.com/ru/companies/vtb/articles/462069/), Habr (VTB blog), 1.08.2019. Alina Aleshchenko, [«Effective piloting»](https://rb.ru/stories/effektivnoe-pilotirovanie/), RB.RU, 14.03.2025.
 
 ## See also
 

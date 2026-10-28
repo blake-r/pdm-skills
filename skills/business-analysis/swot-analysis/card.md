@@ -9,7 +9,7 @@ SWOT is a way to assess a company, product or option through four groups of fact
 | **Internal** — what the company manages | S, Strengths | W, Weaknesses |
 | **External** — market, competitors, regulation | O, Opportunities | T, Threats |
 
-The list of four quadrants alone does not produce decisions. Decisions come from the intersections: in the extended matrix (TOWS), internal factors are in the rows and external factors in the columns, and a strategy is formulated at each intersection.
+Behind the quadrants are only two lists of factors, internal and external; the same factor is a strength for one company and a weakness for another. The list of four quadrants alone does not produce decisions. Decisions come from the intersections: in the extended matrix (TOWS), internal factors are in the rows and external factors in the columns, and a strategy is formulated at each intersection.
 
 ## When to use and when not to
 
@@ -32,7 +32,7 @@ Limitations:
 
 ## How to apply
 
-1. **Collect the factors.** Strengths and weaknesses are stated against competitors, not in a vacuum; opportunities and threats are external, with a source.
+1. **Collect the factors.** Variants for both lists are in [factors.md](factors.md). Strengths and weaknesses are stated against competitors, not in a vacuum; opportunities and threats are external, with a source.
 2. **Rank:** in each quadrant, keep three to five main factors.
 3. **Formulate strategies at the intersections** SO, ST, WO, WT: each rests on a specific pair of factors.
 4. **Select strategies:** assess what is realistically doable and what gives the most, and turn the chosen ones into decisions with an owner and a deadline.
@@ -55,7 +55,9 @@ Sources of the case: Ozon Holdings, [IPO prospectus, 2020](https://www.sec.gov/A
 ## Common mistakes
 
 - **Four lists without strategies.** The analysis ends with quadrants, and no decision is made.
-- **Opportunities confused with strengths.** "A growing market" is listed as a strength.
+- **Factor on the wrong list.** "A growing market" is listed as a strength.
+- **Blurred internal-external split.** One factor stands on both lists, or an outside factor is treated as under the company's control.
+- **Verdict fixed to the factor.** "Brand" is always a strength; whether it is one depends on the rivals.
 - **Strengths without comparison.** "A good team" is something every competitor has.
 - **Long lists without ranking.** Twenty factors in a quadrant — the main ones get lost.
 - **Factors without sources.** Threats and opportunities are invented rather than taken from market data.

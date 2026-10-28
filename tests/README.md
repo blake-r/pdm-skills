@@ -3,6 +3,7 @@
 The model's output cannot be compared byte by byte, so the checks are split.
 
 - **Deterministic, no model:** `uv run scripts/smoke_test.py` (fill, merge, layout check, catalog checks). Run it after every change to scripts, templates or the catalog.
+- **Sources:** `uv run tests/sources.py` lists the sources whose full text was not read, each as a KNOWN FAILURE with the cards that cite it and what to find instead (title, ISBN, DOI). Cards carry no "not opened" marks; a link that opens only an abstract or a paywall counts as a failure. The same test fails if such a mark returns to a card or to `product_notes.md`. When a source is read, delete its entry.
 - **Scenario checks:** each scenario in [scenarios.md](scenarios.md) is run in a clean folder with `pdm-brief`, and the result is checked against the run checklist and the scenario's rubric. Compare structure only: the set of tools, the slides present, `N/A` marks, source tiers and dates. Do not compare wording.
 
 ## Run checklist (every run)

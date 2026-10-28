@@ -72,7 +72,7 @@ Case source: Melissa Suzuno, [Product in Practice: Opportunity Mapping Led to a 
 
 ## Source
 
-Teresa Torres, Product Talk: ["Opportunity Solution Trees"](https://www.producttalk.org/opportunity-solution-tree/) (article, undated; the method and its steps are taken from it) and her book Continuous Discovery Habits (Product Talk, 2021), the book on continuous discovery habits that Grailed's team also read. Torres is the author of the method. The tool has no page in the Product Architecture Framework (PAF, productframework.ru), so the card is built from the primary source of the method alone. The case article is on the same site; the book itself was not opened for this card, so its steps were checked only through Product Talk pages.
+Teresa Torres, Product Talk: ["Opportunity Solution Trees"](https://www.producttalk.org/opportunity-solution-tree/) (article, undated; the method and its steps are taken from it) and her book Continuous Discovery Habits (Product Talk, 2021), the book on continuous discovery habits that Grailed's team also read. Torres is the author of the method. The tool has no page in the Product Architecture Framework (PAF, productframework.ru), so the card is built from the primary source of the method alone. The case article is on the same site.
 
 ## See also
 

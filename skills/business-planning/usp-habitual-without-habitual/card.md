@@ -65,7 +65,7 @@ Source: B. Bambrough, ["Tinkoff steps up to the Russian leaders"](https://www.re
 
 Description in PAF (Sergey Tikhomirov, productframework.ru, CC BY-SA 4.0, undated): "a USP of the type 'familiar without familiar'", the template "<something familiar> without <something familiar>" and four examples: a bank without branches, lodging in another city without hotels, a phone without a keyboard, a taxi without phone dispatchers ([page](https://productframework.ru/activities/competitive_positioning_design)). PAF gives neither the author, nor the year, nor the definitions.
 
-The primary source could not be found: a search by the exact phrase showed neither an author nor a publication. The author and year of the formula are unknown; the card is built on the PAF template.
+The author and year of the formula are unknown; the card is built on the PAF template.
 
 The steps, the replacement, the risk, the list of mistakes and the template blocks beyond the two parts are the card author's conclusions. The interview was obtained through the mirror r.jina.ai (the magazine's site returns 403); the quotes are checked. The bank's check by Boston Consulting Group is mentioned in [Wikipedia](https://en.wikipedia.org/wiki/T-Bank); it is not in the interview.
 

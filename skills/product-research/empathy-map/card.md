@@ -76,7 +76,7 @@ Source of the case: UXDA, [«Case Study: Luxury Mobile Banking App UI Design for
 
 ## Source
 
-D. Gray, [«Updated Empathy Map Canvas»](https://medium.com/@davegray/updated-empathy-map-canvas-46df22df3c8a), Medium, 2017, and [canvas on gamestorming.com](https://gamestorming.com/wp-content/uploads/2017/07/Empathy-Map-Canvas-006.pdf). The canvas PDF is © 2017 Dave Gray, xplane.com, and its numbered sections match the scheme above. Gray's article itself could not be opened (blocked), so details taken from it are not verified.
+D. Gray, [«Updated Empathy Map Canvas»](https://medium.com/@davegray/updated-empathy-map-canvas-46df22df3c8a), Medium, 15.07.2017, and [canvas on gamestorming.com](https://gamestorming.com/wp-content/uploads/2017/07/Empathy-Map-Canvas-006.pdf). The canvas PDF is © 2017 Dave Gray, xplane.com, and its numbered sections match the scheme above. The article was read in full: the numbered sections, the goal framed as observable behavior, the circuit of the outer sectors before the head, and pains and gains inside the head are from it.
 
 ## See also
 

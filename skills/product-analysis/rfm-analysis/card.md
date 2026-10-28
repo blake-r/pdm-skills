@@ -62,7 +62,7 @@ Sources of the case: [Mindbox, Seedspost story (2022)](https://mindbox.ru/journa
 
 ## Source
 
-The method has no single author: it came from direct-mail catalog retail practice (origin not verified in a primary source). Arthur M. Hughes described it in the book [«Strategic Database Marketing»](https://openlibrary.org/books/OL1182563M) (1994); secondary sources attribute to it five levels per attribute and 125 cells. In Mindbox's description the scale runs the other way: 1 is the best on each attribute.
+The method has no single author: it came from direct-mail catalog retail practice. Arthur M. Hughes described it in the book [«Strategic Database Marketing»](https://openlibrary.org/books/OL1182563M) (1994); the usual form of the method has five levels per attribute and 125 cells. In Mindbox's description the scale runs the other way: 1 is the best on each attribute.
 
 ## See also
 

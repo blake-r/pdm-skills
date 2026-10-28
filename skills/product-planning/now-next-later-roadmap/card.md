@@ -65,7 +65,7 @@ Case source: [Introducing the WooCommerce Public Roadmap](https://developer.wooc
 
 ## Source
 
-Janna Bastow, co-founder of ProdPad and creator of the format: [The Now-Next-Later Roadmap](https://www.prodpad.com/blog/invented-now-next-later-roadmap/), ProdPad blog, 18.10.2022. In a reader comment on that page she says she and Simon sketched the first version in 2012 under the names Current / Near Term / Future, and an early customer suggested the names Now-Next-Later. There is no description in PAF (Product Architecture Framework, productframework.ru) for this tool; the card is built from the primary source above. Case facts: WooCommerce Developer Blog, 30.05.2023 (link in Example). A second independent description of the method was not opened.
+Janna Bastow, co-founder of ProdPad and creator of the format: [The Now-Next-Later Roadmap](https://www.prodpad.com/blog/invented-now-next-later-roadmap/), ProdPad blog, 18.10.2022. In a reader comment on that page she says she and Simon sketched the first version in 2012 under the names Current / Near Term / Future, and an early customer suggested the names Now-Next-Later. There is no description in PAF (Product Architecture Framework, productframework.ru) for this tool; the card is built from the primary source above. A second, independent description of the three columns: Kareem Mayan (Savio), [Now-Next-Later roadmaps](https://www.savio.io/product-roadmap/now-next-later-roadmaps/), 2023. Case facts: WooCommerce Developer Blog, 30.05.2023 (link in Example).
 
 ## See also
 

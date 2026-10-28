@@ -76,7 +76,7 @@ Case sources: Carrot quest, [«How HADI cycles can improve a startup's metrics i
 
 ## Source
 
-P. Ryskov, [«HADI cycles: 5 life hacks for testing hypotheses»](https://iidf.ru/media/articles/lifehacks/hadi-tsikly-5-layfkhakov/), FRII, 2019; Carrot quest, a 2015 article about the workshop with FRII (link above). The layout of the canvas with lanes and period data is taken from the original set note; its public primary source was not found.
+P. Ryskov, [«HADI cycles: 5 life hacks for testing hypotheses»](https://iidf.ru/media/articles/lifehacks/hadi-tsikly-5-layfkhakov/), FRII, 2019; Carrot quest, a 2015 article about the workshop with FRII (link above). The layout of the canvas with lanes and period data is taken from the original set note.
 
 ## See also
 

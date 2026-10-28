@@ -16,9 +16,9 @@ Not covered (present in PAF, no separate card): 4 Actions Model (in Strategy Can
 |---|---|---|---|
 | [ABC Analysis](skills/business-analysis/abc-analysis/card.md) | PAF | [/activities/segment_scoring](https://productframework.ru/activities/segment_scoring) |  |
 | [ADL Matrix](skills/business-analysis/adl-matrix/card.md) | PAF, added | [/activities/market_analysis](https://productframework.ru/activities/market_analysis) |  |
-| [Ansoff Matrix](skills/business-analysis/ansoff-matrix/card.md) | not from PAF; added for a gap (H. Igor Ansoff, Harvard Business Review, 1957) | — | original article not opened (HBR page unavailable); bibliography from secondary pages |
+| [Ansoff Matrix](skills/business-analysis/ansoff-matrix/card.md) | not from PAF; added for a gap (H. Igor Ansoff, Harvard Business Review, 1957) | — | — |
 | [BCG Matrix](skills/business-analysis/bcg-matrix/card.md) | not from PAF | — | Own portfolio (canonical use) and own products vs. competitors in one market |
-| [GE–McKinsey Matrix](skills/business-analysis/ge-mckinsey-matrix/card.md) | not from PAF; added for a gap (McKinsey Quarterly, K. Coyne, 2008) | — | factors, weights and cut-offs are not set by the source; Hax and Majluf 1983 and Allen 1977 not opened; the example is eBay 2019 with our scoring (the company did not use the matrix, K5=1) |
+| [GE–McKinsey Matrix](skills/business-analysis/ge-mckinsey-matrix/card.md) | not from PAF; added for a gap (McKinsey Quarterly, K. Coyne, 2008) | — | factors, weights and cut-offs are not set by the source; the example is eBay 2019 with our scoring (the company did not use the matrix, K5=1) |
 | [Product Lifecycle](skills/business-analysis/product-lifecycle/card.md) | not from PAF | — |  |
 | [Sales Funnel](skills/business-analysis/sales-funnel/card.md) | PAF | [/activities/acquisition_strategy_design](https://productframework.ru/activities/acquisition_strategy_design) |  |
 | [Segment Scoring](skills/business-analysis/segment-scoring/card.md) | PAF | [/activities/segment_scoring](https://productframework.ru/activities/segment_scoring) | formula author not named |
@@ -32,7 +32,7 @@ Not covered (present in PAF, no separate card): 4 Actions Model (in Strategy Can
 
 | Card | Origin | PAF Page | Note |
 |---|---|---|---|
-| [Balanced Scorecard](skills/business-planning/balanced-scorecard/card.md) | not from PAF; added for a gap (Kaplan and Norton, Harvard Business Review, 1992) | — | full text of the 1992 article not opened (paywall); no numeric targets in the sources read |
+| [Balanced Scorecard](skills/business-planning/balanced-scorecard/card.md) | not from PAF; added for a gap (Kaplan and Norton, Harvard Business Review, 1992) | — | no numeric targets in the sources |
 | [Business Model Canvas](skills/business-planning/business-model-canvas/card.md) | PAF | [/activities/business_model_research](https://productframework.ru/activities/business_model_research) |  |
 | [Business Model Patterns](skills/business-planning/business-model-patterns/card.md) | PAF, added | [/activities/business_model_research](https://productframework.ru/activities/business_model_research) |  |
 | [Lean Canvas](skills/business-planning/lean-canvas/card.md) | PAF | [/product_concept](https://productframework.ru/product_concept) |  |
@@ -137,11 +137,11 @@ Not covered (present in PAF, no separate card): 4 Actions Model (in Strategy Can
 | [Lean UX Canvas](skills/product-planning/lean-ux-canvas/card.md) | PAF | [/activities/solution_prototyping](https://productframework.ru/activities/solution_prototyping) |  |
 | [Metric Pyramid](skills/product-planning/metric-pyramid/card.md) | PAF | [/activities/quantitative_analytics](https://productframework.ru/activities/quantitative_analytics) |  |
 | [Morphological Analysis](skills/product-planning/morphological-analysis/card.md) | not from PAF | — |  |
-| [MoSCoW Prioritization](skills/product-planning/moscow-prioritization/card.md) | not from PAF; added for a gap (Agile Business Consortium, DSDM handbook) | — | attribution to Dai Clegg rests on secondary sources |
+| [MoSCoW Prioritization](skills/product-planning/moscow-prioritization/card.md) | not from PAF; added for a gap (Agile Business Consortium, DSDM handbook) | — | — |
 | [Now-Next-Later Roadmap](skills/product-planning/now-next-later-roadmap/card.md) | not from PAF; added for a gap (Janna Bastow, ProdPad blog) | — |  |
 | [Opportunity Solution Tree](skills/product-planning/opportunity-solution-tree/card.md) | not from PAF; added for a gap (Teresa Torres, Product Talk) | — |  |
 | [Project Canvas](skills/product-planning/project-canvas/card.md) | PAF | [/project_portfolio](https://productframework.ru/project_portfolio) |  |
-| [Pugh Matrix](skills/product-planning/pugh-matrix/card.md) | not from PAF; added for a gap (Stuart Pugh, Total Design, 1991) | — | book and 1981 paper not opened; steps checked on secondary pages; in the example (Team 506, FAMU-FSU) the final choice came from AHP |
+| [Pugh Matrix](skills/product-planning/pugh-matrix/card.md) | not from PAF; added for a gap (Stuart Pugh, Total Design, 1991) | — | in the example (Team 506, FAMU-FSU) the final choice came from AHP |
 | [RICE Scoring](skills/product-planning/rice-scoring/card.md) | not from PAF | — |  |
 | [SCAMPER Method](skills/product-planning/scamper-method/card.md) | not from PAF | — |  |
 | [Six Thinking Hats](skills/product-planning/six-thinking-hats/card.md) | not from PAF | — |  |
@@ -149,7 +149,7 @@ Not covered (present in PAF, no separate card): 4 Actions Model (in Strategy Can
 | [Theory of Inventive Problem Solving (TRIZ)](skills/product-planning/theory-of-inventive-problem-solving/card.md) | not from PAF | — |  |
 | [User Flow](skills/product-planning/user-flow/card.md) | PAF, added | [/activities/solution_prototyping](https://productframework.ru/activities/solution_prototyping) |  |
 | [Value Proposition Canvas](skills/product-planning/value-proposition-canvas/card.md) | PAF | [/activities/value_proposition_research](https://productframework.ru/activities/value_proposition_research) |  |
-| [Working Backwards PR/FAQ](skills/product-planning/working-backwards-pr-faq/card.md) | not from PAF; added for a gap (Amazon; Bryar and Carr, Working Backwards, 2021) | — | book not opened |
+| [Working Backwards PR/FAQ](skills/product-planning/working-backwards-pr-faq/card.md) | not from PAF; added for a gap (Amazon; Bryar and Carr, Working Backwards, 2021) | — | — |
 
 ## product-research
 
@@ -182,7 +182,7 @@ Not covered (present in PAF, no separate card): 4 Actions Model (in Strategy Can
 | [Advertising / Brochure / Packaging](skills/product-validation/packaging-offer-test/card.md) | PAF, added | [/hypotheses/value_proposition](https://productframework.ru/hypotheses/value_proposition) |  |
 | [Physical Modeling](skills/product-validation/physical-modeling/card.md) | PAF, added | [/hypotheses/solution](https://productframework.ru/hypotheses/solution) |  |
 | [Pilot Project / Sample](skills/product-validation/pilot-project/card.md) | PAF, added | [/hypotheses/value_proposition](https://productframework.ru/hypotheses/value_proposition) |  |
-| [Pre-mortem](skills/product-validation/pre-mortem/card.md) | not from PAF; added for a gap (Gary Klein, HBR 2007) | — | HBR full text closed; steps from Klein's later description |
+| [Pre-mortem](skills/product-validation/pre-mortem/card.md) | not from PAF; added for a gap (Gary Klein, HBR 2007) | — | steps from Klein's later description |
 | [Prototyping Process](skills/product-validation/prototyping-process/card.md) | PAF | [/activities/solution_prototyping](https://productframework.ru/activities/solution_prototyping) |  |
 | [Single Feature Prototype (Concierge MVP, Wizard of Oz, Someone Else's Product)](skills/product-validation/single-feature-prototype/card.md) | PAF, added | [/hypotheses/solution](https://productframework.ru/hypotheses/solution) |  |
 | [Soft Launch (gradual rollout)](skills/product-validation/soft-launch/card.md) | PAF, added | [/hypotheses/solution](https://productframework.ru/hypotheses/solution) |  |

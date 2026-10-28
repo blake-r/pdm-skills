@@ -5,7 +5,7 @@ description: Assess a company, product or option through strengths, weaknesses, 
 
 # SWOT Analysis
 
-The theory, limits and a worked case are in [card.md](card.md). Read it before either mode and do not contradict it. Reply in the user's language.
+The theory, limits and a worked case are in [card.md](card.md); the factor variants for both lists are in [factors.md](factors.md). Read both before either mode and do not contradict them. Reply in the user's language.
 
 Pick the mode from the request: **do** when the user brings a company, product or decision, **review** when the user brings a filled SWOT.
 
@@ -24,7 +24,9 @@ Do not invent market facts or competitor data. A factor without a source is mark
 
 ### 2. Factors
 
-Sort each factor: internal and under the company's control goes to S or W, external goes to O or T. A growing market is an opportunity, not a strength. Strengths and weaknesses are stated against competitors.
+Sort each factor: internal and under the company's control goes to S or W, external goes to O or T. A growing market is an opportunity, not a strength. Strengths and weaknesses are stated against competitors. A factor sits on one list only, and its verdict comes from the comparison, not from the factor.
+
+Offer the variants from factors.md and let the user pick; if the user has a list, use it. The catalog is too long for one question, so ask through AskUserQuestion in two rounds. First, which groups matter (internal: product, customers and sales, finance, technology, people and organization, brand, operations; external: market and customers, competitors, regulation and politics, economy, technology, society). Then the factors inside the chosen groups, as a multiple choice, with the proposed set first and marked "(Recommended)". Without AskUserQuestion, offer the same two steps in one message.
 
 ### 3. Rank
 
@@ -71,9 +73,11 @@ uv run ../../../scripts/fill_pptx.py <this skill dir>/swot-analysis.pptx data.js
 Take the user's SWOT in any form and check it against the common mistakes in card.md:
 
 1. Strategies are formulated on the crossings, not just four lists.
-2. Internal and external factors are not mixed up.
-3. Strengths and weaknesses are stated against competitors.
-4. Each quadrant is ranked to three to five main factors.
-5. Opportunities and threats have sources.
+2. Each factor sits on the right list: no outside factor among strengths or weaknesses, no inside factor among opportunities or threats.
+3. The internal-external split holds: no factor stands on both lists.
+4. No verdict is fixed to a factor: the same factor is judged anew for each company, not copied from a generic list.
+5. Strengths and weaknesses are stated against competitors.
+6. Each quadrant is ranked to three to five main factors.
+7. Opportunities and threats have sources.
 
 Report findings as a numbered list: quadrant or strategy, what is wrong, why it matters for the decision, the concrete fix. End with a verdict: "ready for the decision", "ready after fixes" or "not enough data".

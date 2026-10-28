@@ -64,7 +64,7 @@ Sources: [Amazon press release, 26.04.2005](https://press.aboutamazon.com/2005/4
 
 ## Source
 
-O. Gassmann, K. Frankenberger, M. Csik, "The St. Gallen Business Model Navigator", working paper, University of St. Gallen (undated; the authors' book is 2013), [paper, PDF](https://alexandria.unisg.ch/bitstreams/d71e2821-d8f8-4cc1-a1ee-97baff7d9e48/download): 55 patterns from an analysis of 250 models over 25 years. Description in PAF (Product Architecture Framework, Sergey Tikhomirov, productframework.ru, CC BY-SA 4.0, undated, [page](https://productframework.ru/activities/business_model_research)): "business model patterns and modifications for analyzing current and designing new ones", with a link to a Miro board. The board was not read (login required). PAF does not name the source of the patterns; the match with St. Gallen is not confirmed, so the card is built from the primary source.
+O. Gassmann, K. Frankenberger, M. Csik, "The St. Gallen Business Model Navigator", working paper, University of St. Gallen (undated; the authors' book is 2013), [paper, PDF](https://alexandria.unisg.ch/bitstreams/d71e2821-d8f8-4cc1-a1ee-97baff7d9e48/download): 55 patterns from an analysis of 250 models over 25 years. Description in PAF (Product Architecture Framework, Sergey Tikhomirov, productframework.ru, CC BY-SA 4.0, undated, [page](https://productframework.ru/activities/business_model_research)): "business model patterns and modifications for analyzing current and designing new ones", with a link to a Miro board. PAF does not name the source of the patterns, so the card is built from the primary source.
 
 ## See also
 

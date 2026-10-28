@@ -54,7 +54,7 @@ Analog Devices, a US semiconductor company, built the first scorecard in 1987 du
 | Financial | Market leadership, revenue growth, profitability | none on the slides read |
 | Customer | Rated number 1 by customers in total value delivered | On-time delivery 85% / 96% / >99.8%; outgoing defects 500 / 230 / <10 parts per million (PPM); lead time 10 / 5.4 / <3 weeks |
 | Internal | Eliminate all forms of waste | Manufacturing cycle time 15 / 8 / 4-5 weeks; process defects 5000 / 1100 / <10 PPM; yield 20% / 38% / >50% |
-| Innovation and learning | Shorter time to market; reduced turnover | Time to market 36 months / not read / 6 months; no turnover target read |
+| Innovation and learning | Shorter time to market; reduced turnover | Time to market 36 months / N/A / 6 months; turnover target N/A |
 
 Decisions recorded by Schneiderman: in FY1989 process measures were tracked separately for ICs and assembled products. In FY1990 delivery was measured against the customer's requested date, not the promised date; the old new-product measures, poor predictors, were replaced by a product tracking system and two measures: bookings of products introduced after 1985, and forecast third-year bookings of the current product vintage. FY1991-92 stayed unchanged. Outcomes: HP ranked Analog first among its IC suppliers in 1989 (eighth among linear IC suppliers in 1986); Dataquest named it supplier of the year in 1990 and 1991; Schneiderman does not credit the scorecard alone.
 
@@ -74,7 +74,7 @@ Case source: A. Schneiderman, [Analog Devices 1986-1991: The First Balanced Scor
 
 ## Source
 
-Robert S. Kaplan (Harvard Business School) and David P. Norton (president of Nolan, Norton & Company), [The Balanced Scorecard: Measures That Drive Performance](https://hbr.org/1992/01/the-balanced-scorecard-measures-that-drive-performance-2), Harvard Business Review, January-February 1992, pp. 71-79. The page is paywalled; the card's statements about the article (cockpit image, four questions, limit on measures, the worked example, the caveat on p. 77) were checked by the maintainer against a third-party scan of the full text. The article has no numeric targets. The same authors' "Using the Balanced Scorecard as a Strategic Management System" (HBR, 1996) and the 1996 book add the strategy map; not verified here. Critics' view that the perspectives were never validated is from [Wikipedia](https://en.wikipedia.org/wiki/Balanced_scorecard), not the article. There is no description in PAF (Sergey Tikhomirov, productframework.ru, CC BY-SA 4.0, undated): none was found.
+Robert S. Kaplan (Harvard Business School) and David P. Norton (president of Nolan, Norton & Company), [The Balanced Scorecard: Measures That Drive Performance](https://hbr.org/1992/01/the-balanced-scorecard-measures-that-drive-performance-2), Harvard Business Review, January-February 1992, pp. 71-79. The article has no numeric targets. The same authors' "Using the Balanced Scorecard as a Strategic Management System" (HBR, 1996; [relisted in 2007](https://hbr.org/2007/07/using-the-balanced-scorecard-as-a-strategic-management-system)) and the 1996 book develop the scorecard into a management system. Critics' view that the perspectives were never validated is from [Wikipedia](https://en.wikipedia.org/wiki/Balanced_scorecard), not the article. There is no description in PAF (Sergey Tikhomirov, productframework.ru, CC BY-SA 4.0, undated): none was found.
 
 ## See also
 

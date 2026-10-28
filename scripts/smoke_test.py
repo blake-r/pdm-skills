@@ -13,7 +13,8 @@ Steps, each checked:
 3. run check_pptx.py on the deck (expected: "no layout problems");
 4. confirm that no template token {{ is left in the deck;
 5. fill every pptx template with its example.json and check the layout;
-6. run build/quality_gate.py (cards, selection table, intake skill, plugin manifest).
+6. run build/quality_gate.py (cards, selection table, intake skill, plugin manifest);
+7. run tests/sources.py (register of unchecked sources; no verification marks in cards).
 
 Exits with 0 when every step passes, with 1 otherwise. The example.json files
 are format samples, not data: the test checks the pipeline, not the content.
@@ -98,6 +99,11 @@ def main():
     if r.returncode or "with problems: 0" not in r.stdout:
         fail("quality_gate", r)
     print("ok: quality gate")
+
+    r = run("tests/sources.py")
+    if r.returncode:
+        fail("source register", r)
+    print("ok: source register (known failures listed by tests/sources.py)")
     print("smoke test passed")
 
 

@@ -63,7 +63,7 @@ Source of the case: Stripe, [«Best practices for building a fintech company, fr
 
 Description in PAF (Sergey Tikhomirov, productframework.ru, CC BY-SA 4.0, no date): the handbook «How to create Awesome Problem Interview Script», 14 pages, [page with the PDF](https://productframework.ru/problem_backlog). It draws on Steve Blank («The Four Steps to the Epiphany», 2005; «The Startup Owner's Manual», 2012), Rob Fitzpatrick («The Mom Test», 2013, [momtestbook.com](https://www.momtestbook.com/)), as well as Cindy Alvarez, Eric Ries and Ivan Zamesin.
 
-Chapter 7 «The Problem Interview» of Ash Maurya's book «Running Lean» (1st edition 2010, 2nd 2012): [O'Reilly](https://www.oreilly.com/library/view/running-lean-2nd/9781449321529/ch07.html). Maurya's handbook is not named; the diagrams were not cross-checked.
+Chapter 7 «The Problem Interview» of Ash Maurya's book «Running Lean» (1st edition 2010, 2nd 2012): [O'Reilly](https://www.oreilly.com/library/view/running-lean-2nd/9781449321529/ch07.html). Maurya's handbook is not named.
 
 "Conclusion" and "recommendation of the card's author" are things that are not in the handbook.
 

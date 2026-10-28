@@ -68,7 +68,7 @@ Sources of the case: BI, ["Here's Airbnb's first-ever pitch deck, which helped i
 
 ## Source
 
-Geoffrey A. Moore, "Crossing the Chasm", 1991 ([Wikipedia](https://en.wikipedia.org/wiki/Crossing_the_Chasm)). The text of the book could not be verified: the exact wording, chapter and page are not confirmed. The template fields are taken from retellings: the variant "who (need or opportunity)" — [MIT CSAIL](https://groups.csail.mit.edu/mac/users/hal/misc/elevator.html); the variant "dissatisfied with" and criticism of the template — [Elevator Pitch Essentials](https://www.elevatorpitchessentials.com/essays/CrossingTheChasmElevatorPitchTemplate.html); the six fields — [Actuation Consulting](https://actuationconsulting.com/crafting-positioning-statement/).
+Geoffrey A. Moore, "Crossing the Chasm", 1991 ([Wikipedia](https://en.wikipedia.org/wiki/Crossing_the_Chasm)). The template fields are taken from retellings: the variant "who (need or opportunity)" — [MIT CSAIL](https://groups.csail.mit.edu/mac/users/hal/misc/elevator.html); the variant "dissatisfied with" and criticism of the template — [Elevator Pitch Essentials](https://www.elevatorpitchessentials.com/essays/CrossingTheChasmElevatorPitchTemplate.html); the six fields — [Actuation Consulting](https://actuationconsulting.com/crafting-positioning-statement/).
 
 PAF (Product Architecture Framework, Sergey Tikhomirov, productframework.ru, CC BY-SA 4.0, no date) gives only a brief definition: a description of the product "in several sentences" and "in one sentence" ([positioning](https://productframework.ru/activities/competitive_positioning_design), [concept](https://productframework.ru/product_concept)). The structure of the pitch here is taken from Moore, not from PAF.
 

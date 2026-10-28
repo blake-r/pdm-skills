@@ -57,7 +57,7 @@ The case is not from e-commerce or fintech: a public case with soft launch figur
 
 Description in PAF (Sergey Tikhomirov, productframework.ru, CC BY-SA 4.0, undated): [solution hypotheses](https://web.archive.org/web/20241204101338/https://productframework.ru/hypotheses/solution) (the live page returns 403, the web.archive.org snapshot is available) and [business model hypotheses](https://productframework.ru/hypotheses/business_model). PAF does not name the author of the method or the year.
 
-Ilkka Paananen, [«The Best Games Haven't Been Made Yet»](https://supercell.com/en/news/the-best-games-havent-been-made-yet/), Supercell blog, 10.02.2026. Neil Long, Mobilegamer.biz: [8.04.2024](https://mobilegamer.biz/supercells-squad-busters-soft-launches-on-april-23/) (countries), [25.04.2024](https://mobilegamer.biz/supercells-squad-busters-launches-globally-on-may-29/), [30.10.2025](https://mobilegamer.biz/supercell-is-killing-squad-busters/) (AppMagic estimates). Eric Ries, Gartner, HBR were not used.
+Ilkka Paananen, [«The Best Games Haven't Been Made Yet»](https://supercell.com/en/news/the-best-games-havent-been-made-yet/), Supercell blog, 10.02.2026. Neil Long, Mobilegamer.biz: [8.04.2024](https://mobilegamer.biz/supercells-squad-busters-soft-launches-on-april-23/) (countries), [25.04.2024](https://mobilegamer.biz/supercells-squad-busters-launches-globally-on-may-29/), [30.10.2025](https://mobilegamer.biz/supercell-is-killing-squad-busters/) (AppMagic estimates).
 
 ## See also
 

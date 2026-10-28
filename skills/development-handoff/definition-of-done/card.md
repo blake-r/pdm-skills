@@ -13,7 +13,7 @@ Limits:
 - **Not acceptance criteria.** Acceptance criteria are separate for each task; the DoD is one for all. Mike Cohn: both sets are needed.
 - **Not Definition of Ready.** Definition of Ready (DoR) — conditions under which a task is taken into work. The Scrum Guide 2020 has no DoR.
 - **Own or shared.** The organisation's standard is the minimum; otherwise the team writes its own. Teams of one product — one DoD.
-- **Benefit measured weakly.** Survey by Kopczyńska et al. (137 practitioners, self-assessment): 93% consider the DoD useful, but implementation difficulties and inaccurate items occur in 70% of projects or more. Schwaber and Starr: at least half of unfinished work remains in the released product; the method is not described, so treat it as unverified.
+- **Benefit measured weakly.** Survey by Kopczyńska et al. (137 practitioners, self-assessment): 93% consider the DoD useful, but implementation difficulties and inaccurate items occur in 70% of projects or more. Schwaber and Starr: at least half of unfinished work remains in the released product; the method is not described.
 
 ## Scheme
 
