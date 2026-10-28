@@ -11,7 +11,9 @@ Reports, one line per problem, and exits with 1 if there are any:
 - a shape that extends beyond the slide edges;
 - text that probably does not fit its box (estimated lines x line height);
 - a word longer than a line of its box, which breaks in the middle;
-- a template token ({{key}}) left in the text.
+- a template token ({{key}}) left in the text;
+- a placeholder whose idx and type do not match one in the slide's layout: PowerPoint and officecli match it to the layout by type,
+  Google Slides by idx, so Google loses the layout's size and position (the text turns huge).
 
 The estimate is coarse: it uses the average glyph width of the text's font size
 (wider for bold), the same rule as fill_pptx.py. Treat each report as a
@@ -74,8 +76,16 @@ def check_deck(path):
     sw, sh = prs.slide_width, prs.slide_height
     problems = []
     for n, slide in enumerate(prs.slides, start=1):
+        layout_ph = {ph.placeholder_format.idx: ph.placeholder_format.type for ph in slide.slide_layout.placeholders}
         for shape in iter_shapes(slide.shapes):
             name = f"slide {n}, {shape.name!r}"
+            if shape.is_placeholder:
+                idx, kind = shape.placeholder_format.idx, shape.placeholder_format.type
+                if layout_ph.get(idx) != kind:
+                    problems.append(
+                        f"{name}: placeholder idx={idx} type={kind} has no match in layout "
+                        f"{slide.slide_layout.name!r} (idx to type: {layout_ph}); Google Slides will not inherit the layout"
+                    )
             if shape.left is not None and shape.width is not None:
                 if shape.left < 0 or shape.top < 0 or shape.left + shape.width > sw or shape.top + shape.height > sh:
                     problems.append(f"{name}: extends beyond the slide edge")
