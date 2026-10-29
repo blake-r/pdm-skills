@@ -1,0 +1,20 @@
+{
+  "name": "pdm-skills",
+  "version": "0.1.0",
+  "description": "Product manager toolkit based on the PAF (Product Architecture Framework): canvases, matrices, metrics and experiments. Each tool is a skill with a card, a SKILL.md and a PPTX or XLSX template.",
+  "author": "Oleg Blednov",
+  "license": "CC BY-SA 4.0 (content), MIT (code)",
+  "keywords": [
+    "product-management",
+    "paf",
+    "product-discovery",
+    "prioritization",
+    "metrics"
+  ],
+  "homepage": "https://github.com/blake-r/pdm-skills",
+  "interface": {
+    "displayName": "PDM Skills",
+    "shortDescription": "PAF tools and the pdm-brief research/strategy workflow"
+  },
+  "skills": "./skills/"
+}
